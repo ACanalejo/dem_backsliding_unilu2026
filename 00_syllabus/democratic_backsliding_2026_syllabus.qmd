@@ -227,7 +227,7 @@ Case study countries have been selected in advance and assigned to specific sess
 
 - Presentation groups and session assignments will be finalized during the introductory session in **Block I**.
 
-- Presentation slides must be uploaded to the *Students responses/Presentation slides* folder in OLAT no later than one day before the session, i.e. **by Thursday at 12:00 (noon)**.
+- Presentation slides must be uploaded to the *Students presentations* folder in OLAT no later than one day before the session, i.e. **by Thursday at 12:00 (noon)**.
 
 - Slides may be submitted in PowerPoint or PDF format.
 
