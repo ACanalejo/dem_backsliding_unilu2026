@@ -1,12 +1,7 @@
-# Is Democracy in Danger? The Politics of Democratic Backsliding
-
-Dr. Álvaro Canalejo-Molero
-University of Lucerne
-
-Hauptseminar Spring 2026
-
-Dates and room:
-
+---
+title: "Is Democracy in Danger? The Politics of Democratic Backsliding"
+subtitle: "Hauptseminar Spring 2026" 
+author: 
 - 27.02.2026 9:00-15:30 --- INE 220
 
 - 13.03.2026 9:00-17:30 --- INE 220
@@ -15,19 +10,67 @@ Dates and room:
 
 - 15.05.2026 9:00-15:30 --- 4B02
 
-## Course description
+thanks: "This version of the syllabus: `r format(Sys.time(), '%d %b %Y')`" 
+
+csl: ../00_bibliography/apa.csl
+link-citations: true
+linkcolor: blue
+fontsize: 12pt
+number-sections: true
+format: 
+  pdf:
+    include-in-header: 
+      text: |
+          % LATEX PACKAGES
+          \usepackage[T1]{fontenc} % Use the T1 font encoding
+          \usepackage{fontspec} % Allow to modify font
+          \usepackage{setspace}\onehalfspacing    % Line spacing control
+          \usepackage[utf8]{inputenc}  % UTF-8 input encoding
+          \usepackage{dcolumn}     % Align on decimal points in  tables
+          \usepackage{booktabs}   % Professional tables
+          \usepackage{longtable}     % Tables spanning multiple pages
+          \usepackage{array}     % Enhanced array and table tools
+          \usepackage{multirow}  % Cells spanning multiple rows in  tables
+          \usepackage{wrapfig}   % Wrap text around figures
+          \usepackage{float}     % Improved float control
+          \usepackage{colortbl}  % Color for tables
+          \usepackage{pdflscape} % Landscape-oriented pages
+          \usepackage{tabu}    % Flexible table environment
+          \usepackage{threeparttable}  % Tables with notes
+          \usepackage{threeparttablex} % "threeparttable" with  "longtable" support
+          \usepackage[normalem]{ulem}  % Various underlining styles
+          \usepackage{makecell}         % Enhanced table cell creation
+          \usepackage{xcolor}  % Advanced color support
+          \usepackage{fancyhdr}    % Custom headers and footers
+          \usepackage{enumitem} % itemize
+          \usepackage{graphicx} % resize table
+          
+          % LATEX SETUP
+          \pagestyle{fancy}  % Use the fancy header/footer style
+          \fancypagestyle{plain}{\pagestyle{fancy}} % Fancy style for plain pages
+          \fancyhead[LE,RO]{Dr. Álvaro Canalejo-Molero}
+          \fancyhead[RE,LO]{University of Lucerne}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Course description
 
 Over the past decades, growing debates and concerns have emerged about whether we are witnessing a period of democratic decline. These discussions have intensified in recent years, with renewed geopolitical tensions and events such as Donald Trump’s re-election and the rise of the European far right reigniting worries about the stability and resilience of democratic systems. In this context, this course explores the politics of democratic backsliding. It begins by reviewing key theories of democracy and democratic backsliding—understood as processes of state-led democratic erosion—before turning to the potential mechanisms behind these developments. The course first examines backsliding from the perspective of political elites, and then from that of citizens. Finally, it assesses recent trends and debates and concludes with a discussion on the current state of democracy. The aim of the course is to equip students with the conceptual tools to assess democracy and its potential erosion in today’s context, and to engage critically with the latest empirical research at the intersection of democratic theory and political behavior.
 
-## Course organization
+
+# Course organization
 
 This course is organized as a block seminar that will run during the Spring term of 2026. Each block will consist of three or four sessions held on Fridays. The first block provides an overview of theories of democracy, democratic backsliding, and erosion. The second and third blocks then examine the mechanisms sustaining backsliding in today’s societies, focusing on the roles of political elites and citizens in Blocks II and III, respectively. The fourth and final block assesses current trends and debates on the measurement of, and resistance to, democratic backsliding. Students will give at least one presentation in one of the sessions in Blocks II, III, or IV. There will be no student presentations during Block I.
 
-## Enrolment requirements
+# Enrolment requirements
 
 This course is open to advanced bachelor’s and master’s students interested in democracy and political behavior. Ideally, students should have some basic familiarity with core topics in political science. Since many of the assigned papers include statistical analyses and experimental designs, a basic understanding of statistics (descriptive statistics and regression) is **strongly recommended**.
 
-## Learning outcomes
+# Learning outcomes
 
 By the end of this course, students will be able to:
 
@@ -39,31 +82,31 @@ By the end of this course, students will be able to:
 
 4. **[Competence — Communication]** Debate with their colleagues and communicate complex concepts effectively to a broad audience.
 
-## Teaching policy
+# Teaching policy
 
 This course is designed as a seminar in which students are expected to complete the mandatory readings in advance and participate actively during class. Each session consists of two parts. In the first part, the lecturer will introduce the topic based on the readings. In the second part, students will present a case study of a country experiencing democratic backsliding (Blocks II, III, and IV) or take part in a group activity designed to encourage critical thinking (Block I). **Active participation is essential to the success of the course.**
 
-## Integration and interaction policy
+# Integration and interaction policy
 
 Discrimination due to race, gender, ethnicity, or sexual orientation is strictly forbidden in this course. Students are encouraged to use inclusive language and to respect the sexual and gender identification of others. During each session, the lecturer will actively promote equal participation within the class. More generally, interventions must be carried out respectfully, integrating and engaging with different views and perspectives. Discouraging language or other bullying strategies are strictly forbidden, too.
 
-## Artificial intelligence (AI) policy
+# Artificial intelligence (AI) policy
 
 The use of generative AI tools for preparing class materials is allowed. However, these tools should augment, not replace, human effort (e.g., students should not copy and paste content directly from these tools). The primary concern is not grades but the quality of class discussions, which are central to evaluation. Relying on AI to substitute for human work will hinder meaningful discussion and, ultimately, not only the grade but the learning outcomes. 
 
 To help enforcing this policy, students are required to declare the use of AI and specify its scope in an appendix when submitting response papers, presentation slides or any other assignments.
 
-## Evaluation
+# Evaluation
 
-### Mandatory requirements (3 credits)
+## Mandatory requirements (3 credits) {.unnumbered}
 
 To receive the credits, students are expected to fulfill the following criteria:
 
-#### 1. Attend all the sessions
+### 1. Attend all the sessions {.unnumbered}
 
 Attendance is mandatory. Students can miss a maximum of two sessions. Missing more sessions without a justified certificate of absence implies failing the course.
 
-#### 2. Do the mandatory readings before each session
+### 2. Do the mandatory readings before each session {.unnumbered}
 
 This course is reading-intensive. Therefore, I recommend *reading cleverly*. For that:
 
@@ -75,11 +118,11 @@ This course is reading-intensive. Therefore, I recommend *reading cleverly*. For
 
 The reading texts will be uploaded to the materials folder in OLAT by the beginning of the course.
 
-#### 3. Participate actively
+### 3. Participate actively {.unnumbered}
 
 Active engagement involves intervening during the discussion with questions, comments and ideas, reflecting on the content of the readings. Students are always encouraged to raise new arguments and debates.
 
-#### 4. Write two response papers
+### 4. Write two response papers {.unnumbered}
 
 Students must select two sessions from blocks II, III and IV. For each selected session, they must submit one short response paper (500–700 words).The selected sessions must come from different blocks (e.g., one from Block II and one from Block III), and not belong to the same block as the student’s presentation session.
 
@@ -103,13 +146,13 @@ The **submission rules** are:
 
 - The file must be in Word. The title should include the session's number followed by the student's surname in capital letters and the response paper number (either 1 or 2). For example: *session05_CANALEJO_1*.
 
-#### 5. Present a case study of a country under democratic backsliding 
+### 5. Present a case study of a country under democratic backsliding  {.unnumbered}
 
 Students will present a case study of a country experiencing democratic backsliding. Presentations will be conducted individually or in pairs and will last **a maximum of 30 minutes**. Case study countries will be **assigned during Block I**.
 
 The objective of the presentation is to analyze democratic backsliding in a concrete national context, combining empirical evidence, institutional analysis, and critical discussion.
 
-##### Structure of the presentation
+#### Structure of the presentation {.unnumbered}
 
 Presentations should be organized around the following four components:
 
@@ -117,50 +160,50 @@ Presentations should be organized around the following four components:
 
 Introduce the country by providing essential contextual information, including:
 
-
-- Basic socio-economic and geopolitical context
-- Democratic history (since when the country is considered democratic and to what extent)
-- Type of democratic system (e.g. presidential or parliamentary; proportional or majoritarian)
-- Structure of the party system
-
+\begin{itemize}[leftmargin=1.6cm]
+  \item Basic socio-economic and geopolitical context
+  \item Democratic history (since when the country is considered democratic and to what extent)
+  \item Type of democratic system (e.g. presidential or parliamentary; proportional or majoritarian)
+  \item Structure of the party system
+\end{itemize}
 
 2. **Democratic backsliding and trends over time** ***(max. 10 minutes)***
 
 Analyze democratic developments using empirical evidence, including:
 
-
-- Data sources measuring democracy over time
-- When and why the country is considered to be undergoing democratic backsliding
-- Comparison with neighboring countries
-- Main dimensions affected (e.g. elections, rule of law, media freedom, checks and balances)
-- Key milestones, critical events, and the current situation
-
+\begin{itemize}[leftmargin=1.6cm]
+  \item Data sources measuring democracy over time
+  \item When and why the country is considered to be undergoing democratic backsliding
+  \item Comparison with neighboring countries
+  \item Main dimensions affected (e.g. elections, rule of law, media freedom, checks and balances)
+  \item Key milestones, critical events, and the current situation
+\end{itemize}
 
 3. **Opposition, resilience, and future prospects** ***(max. 10 minutes)***
 
 Discuss political dynamics and possible trajectories, including:
 
-
-- Whether and how democratic backsliding is politicized
-- Organization and strategies of opposition forces
-- Forms of resistance and institutional or societal resilience
-- Plausible scenarios for democratic recovery, continued erosion, or democratic breakdown
-
+\begin{itemize}[leftmargin=1.6cm]
+  \item Whether and how democratic backsliding is politicized
+  \item Organization and strategies of opposition forces
+  \item Forms of resistance and institutional or societal resilience
+  \item Plausible scenarios for democratic recovery, continued erosion, or democratic breakdown
+\end{itemize}
 
 4. **Discussion question**
 
 Conclude with one clear question to open a class discussion. This may involve:
 
-
-- Evaluating specific developments in the case
-- Comparing the country with others studied in the course
-- Discussing alternative strategies or responses
-- Normative or analytical reflections
-
+\begin{itemize}[leftmargin=1.6cm]
+  \item Evaluating specific developments in the case
+  \item Comparing the country with others studied in the course
+  \item Discussing alternative strategies or responses
+  \item Normative or analytical reflections
+\end{itemize}
 
 Creativity is encouraged, as long as the question is clearly connected to the case.
 
-##### Case study countries
+#### Case study countries {.unnumbered}
 
 Case study countries have been selected in advance and assigned to specific sessions.
 
@@ -180,7 +223,7 @@ Case study countries have been selected in advance and assigned to specific sess
 | 13      | 15.05.2026  | 12:00–12:45   | Poland         |
 
 
-##### Organizational details
+#### Organizational details {.unnumbered}
 
 - Presentation groups and session assignments will be finalized during the introductory session in **Block I**.
 
@@ -190,7 +233,7 @@ Case study countries have been selected in advance and assigned to specific sess
 
 - File names must follow this structure: *presentation_slides_sessionXX_SURNAME(S)* (e.g. *presentation_slides_session02_CANALEJO*).
 
-#### Grading policy
+### Grading policy {.unnumbered}
 
 - 10% of the grade is determined by the quality and quantity of the participation in class.
 
@@ -200,8 +243,35 @@ Case study countries have been selected in advance and assigned to specific sess
 
 The grade will not only take differences between students into account but also within students' differences over time (i.e., their personal progress).
 
+```{r echo=FALSE, fig.width=6, fig.height=3, fig.align = "center"}
+# Load necessary library
+library(ggplot2)
 
-### Seminar paper (4/6 credits)
+# Data for grading policy
+grades <- data.frame(
+  Category = c("Class Participation", "Response papers", "Presentation"),
+  Percentage = c(10, 40, 50)
+)
+
+# Reorder the levels of Category based on Percentage from higher to lower
+grades$Category <- factor(grades$Category, levels = grades$Category[order(-grades$Percentage)])
+
+# Create a bar chart
+ggplot(grades, aes(x = reorder(Category, -Percentage), y = Percentage, fill = Category)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = paste0(Percentage, "%")), vjust = -0.5) +  # Add percentage labels
+  theme_minimal() +
+  labs(title = "Grading Policy Breakdown", x = "Category", y = "Percentage") +  # Remove x-axis label
+  scale_fill_brewer(palette = "Set2") +
+  ylim(0,60) +
+  theme(legend.position = "right",  # Add legend for categories
+        legend.title = element_blank(),  # Remove legend title
+        axis.text.x = element_blank(),  # Remove x-axis text
+        plot.title = element_text(hjust = 0.5))  # Center title
+```
+
+
+## Seminar paper (4/6 credits) {.unnumbered}
 
 Students can choose to write a *haupt* (master) seminar paper to obtain four (six) extra credits. The seminar paper must have between 6000 and 10000 words. The topic should be agreed upon between the instructor and the student. To this end, students are asked to write a paper outline of 1-2 pages consisting of the following elements:
 
@@ -221,21 +291,21 @@ An approximate deadline for the submission of the seminar paper is **September 1
 
 Please refer to the [Guidelines on How to Do Research of the Department of Political Science](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.unilu.ch/fileadmin/fakultaeten/ksf/institute/polsem/Dok/Studium/Guidelines_POLSEM___2023___English_01.pdf) for more details.
 
-## Office hours
+# Office hours
 
 The lecturer has not fixed office hours. Instead, students can send an e-mail at [alvaro.canalejo@unilu.ch](alvaro.canalejo@unilu.ch) to schedule a meeting within a one-week time period, either in person (office 3.B14) or virtually via Zoom.
 
-## Course schedule
+# Course schedule
 
-### Block I. Democracy and Democratic Backsliding (27.02.2026 / 9:00–15:30)
+## Block I. Democracy and Democratic Backsliding (27.02.2026 / 9:00–15:30) {.unnumbered}
 
-#### Session 1. Introduction (27.02.2026 / 9:00–10:45)
+### Session 1. Introduction (27.02.2026 / 9:00–10:45) {.unnumbered}
 
 **Mandatory reading**
 
 Przeworski, A. (2019). *Crises of democracy*. Cambridge University Press. *Chapter 1*
 
-#### Session 2. What is Democracy? (27.02.2026 / 11:00–12:45)
+### Session 2. What is Democracy? (27.02.2026 / 11:00–12:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -249,7 +319,7 @@ Schmitter, Philippe C., and Terry Lynn Karl. (1991). What Democracy Is…and Is 
 
 Manin, B., Przeworski, A., & Stokes, S. (1999). *Democracy, accountability and representation*. Cambridge University Press. *Chapter 1*
 
-#### Session 3. What is Democratic Backsliding? (27.02.2026 / 13:45–15:30)
+### Session 3. What is Democratic Backsliding? (27.02.2026 / 13:45–15:30) {.unnumbered}
 
 **Mandatory readings**
 
@@ -263,9 +333,9 @@ Lührmann, A., & Lindberg, S. I. (2019). A third wave of autocratization is here
 
 Carothers, T., & Hartnett, B. (2024). Misunderstanding democratic backsliding. *Journal of Democracy*, 35(3), 24-37.
 
-### Block II. The Supply-Side of Democratic Backsliding (13.03.2026 / 9:00–17:30)
+## Block II. The Supply-Side of Democratic Backsliding (13.03.2026 / 9:00–17:30) {.unnumbered}
 
-#### Session 4. Weakening Horizontal Accountability (13.03.2026 / 9:00–10:45)
+### Session 4. Weakening Horizontal Accountability (13.03.2026 / 9:00–10:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -279,7 +349,7 @@ O’Donnell, Guillermo A. (1994). Delegative Democracy. *Journal of Democracy*, 
 
 Haggard, S., & Kaufman, R. (2021). *Backsliding: Democratic regress in the contemporary world*. Cambridge University Press. *Chapters 3 & 4* 
 
-#### Session 5. Weakening Vertical Accountability (13.03.2026 / 11:00–12:45)
+### Session 5. Weakening Vertical Accountability (13.03.2026 / 11:00–12:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -293,7 +363,7 @@ Grossman, Guy, Yotam Margalit, and Tamar Mitts. (2022). How the ultrarich use me
 
 Weyland, K. (2025). Opposition to populist backsliding: conditions, limitations, and opportunities. *Democratization*, 32(1), 1-26.
 
-#### Session 6. Weakening Democratic Norms (13.03.2026 / 13:45–15:30)
+### Session 6. Weakening Democratic Norms (13.03.2026 / 13:45–15:30) {.unnumbered}
 
 **Mandatory readings**
 
@@ -307,7 +377,7 @@ Valentim, V. (2024). *The normalization of the radical right: A norms theory of 
 
 Valentim, V., Dinas, E., & Ziblatt, D. (2025). How mainstream politicians erode norms. *British Journal of Political Science*, 55, e105.
 
-#### Session 7. Populism and the Weakening of 'Party Democracy'  (13.03.2026 / 15:45–17:30)
+### Session 7. Populism and the Weakening of 'Party Democracy'  (13.03.2026 / 15:45–17:30) {.unnumbered}
 
 **Mandatory readings**
 
@@ -321,9 +391,9 @@ Mudde, Cas, and Cristobal Rovira Kaltwasser. (2017). *Populism: A Very Short Int
 
 Kendall-Taylor, A. and Erica F. (2016). [How Democracies Fall Apart: Why Populism is a Pathway to Autocracy](https://www.foreignaffairs.com/articles/2016-12-05/how-democracies-fall-apart). *Foreign Affairs*
   
-### Block III. The Demand-Side of Democratic Backsliding (17.04.2026 / 9:00–17:30)
+## Block III. The Demand-Side of Democratic Backsliding (17.04.2026 / 9:00–17:30) {.unnumbered}
 
-#### Session 8. Support for Democracy and Political Trust (17.04.2026 / 9:00–10:45)
+### Session 8. Support for Democracy and Political Trust (17.04.2026 / 9:00–10:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -337,7 +407,7 @@ Valgarðsson, V., Jennings, W., Stoker, G., Bunting, H., Devine, D., McKay, L., 
 
 Claassen, C., Ackermann, K., Bertsou, E., Borba, L., Carlin, R. E., Cavari, A., ... & Zechmeister, E. J. (2025). Conceptualizing and measuring support for democracy: A new approach. *Comparative Political Studies*, 58(6), 1171-1198.
 
-#### Session 9. Democratic Values and Hypocrisy (17.04.2026 / 11:00–12:45)
+### Session 9. Democratic Values and Hypocrisy (17.04.2026 / 11:00–12:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -351,7 +421,7 @@ Wunsch, N., Jacob, M. S., & Derksen, L. (2025). The demand side of democratic ba
 
 Yeung, E. S. F. (2025). Dynamic democratic backsliding. *British Journal of Political Science*, 55, Article e164
 
-#### Session 10. Grievances and Resentment (17.04.2026 / 13:45–15:30)
+### Session 10. Grievances and Resentment (17.04.2026 / 13:45–15:30) {.unnumbered}
 
 **Mandatory readings**
 
@@ -365,7 +435,7 @@ Scheiring, G., Serrano-Alarcón, M., Moise, A., McNamara, C., & Stuckler, D. (20
 
 Margalit, Y., Raviv, S., & Solodoch, O. (2025). The cultural origins of populism. *The Journal of Politics*, 87(2), 393-410.
 
-#### Session 11. Media Change and Disinformation (17.04.2026 / 15:45–17:30)
+### Session 11. Media Change and Disinformation (17.04.2026 / 15:45–17:30) {.unnumbered}
 
 **Mandatory readings**
 
@@ -379,9 +449,9 @@ Jerit, J., & Zhao, Y. (2020). Political misinformation. *Annual Review of Politi
 
 Ecker, U., Roozenbeek, J., Van Der Linden, S., Tay, L. Q., Cook, J., Oreskes, N., & Lewandowsky, S. (2024). Misinformation poses a bigger threat to democracy than you might think. *Nature*, 630(8015), 29-32.
 
-### Block IV. Trends and Debates on Democratic Backsliding (15.05.2026 / 15:45–17:30)
+## Block IV. Trends and Debates on Democratic Backsliding (15.05.2026 / 15:45–17:30) {.unnumbered}
 
-#### Session 12. Measuring Democratic Backsliding (15.05.2026 / 9:00–10:45)
+### Session 12. Measuring Democratic Backsliding (15.05.2026 / 9:00–10:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -395,7 +465,7 @@ Knutsen, C. H., Marquardt, K. L., Seim, B., Coppedge, M., Edgell, A. B., Medziho
 
 Baron, H., Blair, R. A., Gottlieb, J., & Paler, L. (2024). An events-based approach to understanding democratic erosion. *PS: Political Science & Politics*, 57(2), 208-215.
 
-#### Session 13. Institutional and Civil Resistance (15.05.2026 / 11:00–12:45)
+### Session 13. Institutional and Civil Resistance (15.05.2026 / 11:00–12:45) {.unnumbered}
 
 **Mandatory readings**
 
@@ -409,7 +479,7 @@ Capoccia, G. (2026). Countering Illiberalism in Liberal Democracies: Information
 
 Bateman, D. A. (2025). Democracy-reinforcing hardball: Can breaking democratic norms preserve democratic values?. *Comparative Political Studies*. 00104140241312107.
 
-#### Session 14. Is Democracy in Danger? Final Remarks (15.05.2026 / 13:45–15:30)
+### Session 14. Is Democracy in Danger? Final Remarks (15.05.2026 / 13:45–15:30) {.unnumbered}
 
 **Mandatory reading**
 
@@ -422,3 +492,4 @@ Samuels, D. J. (2023). The international context of democratic backsliding: Reth
 Benmelech, E., & Monteiro, J. (2026). War and Democratic Backsliding (No. w34734). *National Bureau of Economic Research*. 
  
 Pattison, J. (2025). The ethics of responding to democratic backsliding abroad. *American Journal of Political Science*.
+
