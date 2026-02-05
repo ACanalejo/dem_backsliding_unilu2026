@@ -301,19 +301,19 @@ The lecturer has not fixed office hours. Instead, students can send an e-mail at
 
 ### Session 1. Introduction (27.02.2026 / 9:00–10:45) {.unnumbered}
 
-**Mandatory reading**
+***Mandatory reading***
 
 Przeworski, A. (2019). *Crises of democracy*. Cambridge University Press. *Chapter 1*
 
 ### Session 2. What is Democracy? (27.02.2026 / 11:00–12:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Dahl, R. A. (1972). *Polyarchy: Participation and opposition*. Yale university press. *Chapter 1* 
 
 Przeworski, A. (1991). *Democracy and the market: Political and economic reforms in Eastern Europe and Latin America* (Vol. 181). Cambridge University Press. *Chapter 1*
 
-**Additional readings**
+***Additional readings***
 
 Schmitter, Philippe C., and Terry Lynn Karl. (1991). What Democracy Is…and Is Not. *Journal of Democracy*, 2 (3): 75-88.
 
@@ -321,13 +321,13 @@ Manin, B., Przeworski, A., & Stokes, S. (1999). *Democracy, accountability and r
 
 ### Session 3. What is Democratic Backsliding? (27.02.2026 / 13:45–15:30) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Bermeo, Nancy. (2016). On Democratic Backsliding. *Journal of Democracy*, 27(1): pp. 5-19.
 
 Waldner, David, and Ellen Lust. (2018). Unwelcome change: Coming to terms with democratic backsliding. *Annual Review of Political Science*, 21: 93-113.
 
-**Additional readings**
+***Additional readings***
 
 Lührmann, A., & Lindberg, S. I. (2019). A third wave of autocratization is here: what is new about it?. *Democratization*, 26(7), 1095-1113.
 
@@ -337,21 +337,25 @@ Carothers, T., & Hartnett, B. (2024). Misunderstanding democratic backsliding. *
 
 ### Session 4. Weakening Horizontal Accountability (13.03.2026 / 9:00–10:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Varol, Ozan. (2015). Stealth Authoritarianism. *Iowa Law Review*, 100(4): 1673-1742. *Parts I, II and III* 
 
 Levitsky, Steven and Daniel Ziblatt. (2018). *How Democracies Die*. New York: Crown. *Chapter 4* 
 
-**Additional readings**
+***Additional readings***
 
 O’Donnell, Guillermo A. (1994). Delegative Democracy. *Journal of Democracy*, 5 (1): 55-69.
 
 Haggard, S., & Kaufman, R. (2021). *Backsliding: Democratic regress in the contemporary world*. Cambridge University Press. *Chapters 3 & 4* 
 
+***Case study*** 
+
+Hungary
+
 ### Session 5. Weakening Vertical Accountability (13.03.2026 / 11:00–12:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Bentele, Keith G., and Erin E. O’Brien. (2013). Jim Crow 2.0? Why States Consider and Adopt Restrictive Voter Access Policies. *Perspectives on Politics*, 11 (4): 1088-1116. 
 
@@ -363,129 +367,165 @@ Grossman, Guy, Yotam Margalit, and Tamar Mitts. (2022). How the ultrarich use me
 
 Weyland, K. (2025). Opposition to populist backsliding: conditions, limitations, and opportunities. *Democratization*, 32(1), 1-26.
 
+***Case study***
+
+Turkey
+
 ### Session 6. Weakening Democratic Norms (13.03.2026 / 13:45–15:30) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Bursztyn, L., Egorov, G., & Fiorin, S. (2020). From extreme to mainstream: The erosion of social norms. *American Economic Review*, 110(11), 3522-3548.
 
 Clayton, K., Davis, N. T., Nyhan, B., Porter, E., Ryan, T. J., & Wood, T. J. (2021). Elite rhetoric can undermine democratic norms. *Proceedings of the National Academy of Sciences*, 118(23), e2024125118.
 
-**Additional readings**
+***Additional readings***
 
 Valentim, V. (2024). *The normalization of the radical right: A norms theory of political supply and demand*. Oxford University Press. *Chapter 1*
 
 Valentim, V., Dinas, E., & Ziblatt, D. (2025). How mainstream politicians erode norms. *British Journal of Political Science*, 55, e105.
 
+***Case study***
+
+India
+
 ### Session 7. Populism and the Weakening of 'Party Democracy'  (13.03.2026 / 15:45–17:30) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Kriesi, H. (2017). The populist challenge. In *The role of parties in twenty-first century politics* (pp. 131-148). Routledge.
 
 Bessen, B. R. (2024). Populist discourse and public support for executive aggrandizement in Latin America. *Comparative Political Studies*, 57(13), 2118-2151.
 
-**Additional readings**
+***Additional readings***
 
 Mudde, Cas, and Cristobal Rovira Kaltwasser. (2017). *Populism: A Very Short Introduction*. New York: Oxford University Press. *Chapter 1*
 
 Kendall-Taylor, A. and Erica F. (2016). [How Democracies Fall Apart: Why Populism is a Pathway to Autocracy](https://www.foreignaffairs.com/articles/2016-12-05/how-democracies-fall-apart). *Foreign Affairs*
-  
+
+***Case study***
+
+United States
+
 ## Block III. The Demand-Side of Democratic Backsliding (17.04.2026 / 9:00–17:30) {.unnumbered}
 
 ### Session 8. Support for Democracy and Political Trust (17.04.2026 / 9:00–10:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Claassen, C. (2020). Does public support help democracy survive?. *American Journal of Political Science*, 64(1), 118-134.
 
 Jacob, M. S. (2025). Citizen support for democracy, anti‐pluralist parties in power and democratic backsliding. *European Journal of Political Research*, 64(1), 348-373.
 
-**Additional readings**
+***Additional readings***
 
 Valgarðsson, V., Jennings, W., Stoker, G., Bunting, H., Devine, D., McKay, L., & Klassen, A. (2025). A crisis of political trust? Global trends in institutional trust from 1958 to 2019. *British Journal of Political Science*, 55, e15.
 
 Claassen, C., Ackermann, K., Bertsou, E., Borba, L., Carlin, R. E., Cavari, A., ... & Zechmeister, E. J. (2025). Conceptualizing and measuring support for democracy: A new approach. *Comparative Political Studies*, 58(6), 1171-1198.
 
+***Case study***
+
+Bangladesh
+
 ### Session 9. Democratic Values and Hypocrisy (17.04.2026 / 11:00–12:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Graham, M. H., & Svolik, M. W. (2020). Democracy in America? Partisanship, polarization, and the robustness of support for democracy in the United States. *American Political Science Review*, 114(2), 392-409.
 
 Chu, J. A., Williamson, S., & Yeung, E. S. (2025). Are people willing to trade away democracy for desirable outcomes? Experimental evidence from six countries. *Comparative Political Studies*, 00104140251392539.
 
-**Additional readings**
+***Additional readings***
 
 Wunsch, N., Jacob, M. S., & Derksen, L. (2025). The demand side of democratic backsliding: How divergent understandings of democracy shape political choice. *British Journal of Political Science*, 55, e39.
 
 Yeung, E. S. F. (2025). Dynamic democratic backsliding. *British Journal of Political Science*, 55, Article e164
 
+***Case study***
+
+Nicaragua
+
 ### Session 10. Grievances and Resentment (17.04.2026 / 13:45–15:30) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Cramer, K. J. (2016). *The politics of resentment: Rural consciousness in Wisconsin and the rise of Scott Walker*. University of Chicago Press. *Chapter 1*
 
 Berman, Sheri. (2021). The Causes of Populism in the West. *Annual Review of Political Science*, 24 (1), 71-88.
 
-**Additional readings**
+***Additional readings***
 
 Scheiring, G., Serrano-Alarcón, M., Moise, A., McNamara, C., & Stuckler, D. (2024). The populist backlash against globalization: A meta-analysis of the causal evidence. *British Journal of Political Science*, 54(3), 892-916.
 
 Margalit, Y., Raviv, S., & Solodoch, O. (2025). The cultural origins of populism. *The Journal of Politics*, 87(2), 393-410.
 
+***Case study***
+
+El Salvador
+
 ### Session 11. Media Change and Disinformation (17.04.2026 / 15:45–17:30) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Lecheler, S., & Egelhofer, J. L. (2022). Disinformation, misinformation, and fake news: Understanding the supply side. In *Knowledge resistance in high-choice information environments* (pp. 69-87). Taylor & Francis
 
 Tucker, J. A., Guess, A., Barberá, P., Vaccari, C., Siegel, A., Sanovich, S., ... & Nyhan, B. (2018). Social media, political polarization, and political disinformation: A review of the scientific literature. *Working paper* (March 19, 2018) 
 
-**Additional readings**
+***Additional readings***
 
 Jerit, J., & Zhao, Y. (2020). Political misinformation. *Annual Review of Political Science*, 23(1), 77-94.
 
 Ecker, U., Roozenbeek, J., Van Der Linden, S., Tay, L. Q., Cook, J., Oreskes, N., & Lewandowsky, S. (2024). Misinformation poses a bigger threat to democracy than you might think. *Nature*, 630(8015), 29-32.
 
+***Case study***
+
+Philippines
+
 ## Block IV. Trends and Debates on Democratic Backsliding (15.05.2026 / 15:45–17:30) {.unnumbered}
 
 ### Session 12. Measuring Democratic Backsliding (15.05.2026 / 9:00–10:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Marina, N., Lundstedt, M., Altman, D., Angiolillo, F., Borella, C., Fernandes, T., Gastaldi, L., Good, A. G., Natsika N., & Lindberg, S. I. (2024). Democracy Report 2024: Democracy Winning and Losing at the Ballot. *University of Gothenburg: V-Dem Institute* 
 
 Little, A. T., & Meng, A. (2024). Measuring democratic backsliding. *PS: Political Science & Politics*, 57(2), 149-161.
 
-**Additional readings**
+***Additional readings***
 
 Knutsen, C. H., Marquardt, K. L., Seim, B., Coppedge, M., Edgell, A. B., Medzihorsky, J., ... & Lindberg, S. I. (2024). Conceptual and measurement issues in assessing democratic backsliding. *PS: Political Science & Politics*, 57(2), 162-177.
 
 Baron, H., Blair, R. A., Gottlieb, J., & Paler, L. (2024). An events-based approach to understanding democratic erosion. *PS: Political Science & Politics*, 57(2), 208-215.
 
+***Case study***
+
+Brazil
+
 ### Session 13. Institutional and Civil Resistance (15.05.2026 / 11:00–12:45) {.unnumbered}
 
-**Mandatory readings**
+***Mandatory readings***
 
 Graham, B. A., Miller, M. K., & Strøm, K. W. (2017). Safeguarding democracy: Powersharing and democratic survival. *American Political Science Review*, 111(4), 686-704.
 
 Chenoweth, E., & Stephan, M. J. (2011). *Why civil resistance works: The strategic logic of nonviolent conflict*. Columbia University Press. *Chapter 1* 
 
-**Additional readings**
+***Additional readings***
 
 Capoccia, G. (2026). Countering Illiberalism in Liberal Democracies: Information, Legacies, Temporalities. *Comparative Political Studies*, 0(0). 00104140261418663
 
 Bateman, D. A. (2025). Democracy-reinforcing hardball: Can breaking democratic norms preserve democratic values?. *Comparative Political Studies*. 00104140241312107.
 
+***Case study***
+
+Poland
+
 ### Session 14. Is Democracy in Danger? Final Remarks (15.05.2026 / 13:45–15:30) {.unnumbered}
 
-**Mandatory reading**
+***Mandatory reading***
 
 Riedl, R. B., Friesen, P., McCoy, J., & Roberts, K. (2024). Democratic backsliding, resilience, and resistance. *World Politics*.
 
-**Additional readings**
+***Additional readings***
  
 Samuels, D. J. (2023). The international context of democratic backsliding: Rethinking the role of third wave “prodemocracy” global actors. *Perspectives on Politics*, 21(3), 1001-1012.  
  
