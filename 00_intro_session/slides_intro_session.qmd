@@ -1,0 +1,209 @@
+---
+title: "Is Democracy in Danger?"
+subtitle: "The Politics of Democratic Backsliding"
+author: "Dr. Álvaro Canalejo-Molero"
+institute: "University of Lucerne"
+bibliography: ../00_bibliography/dem_backsliding.bib
+csl: ../00_bibliography/apa.csl
+toc: true
+toc-depth: 1
+number-sections: false
+echo: FALSE
+warning: FALSE
+output: TRUE
+from: markdown+emoji
+format:
+  revealjs:
+    theme:
+      - default
+      - custom.scss
+    logo: ../00_images/logo_unilu.png
+    footer: | 
+         Hauptseminar - Spring Term 2026
+    title-slide-attributes:
+      data-background-image: "../00_images/unilu_building.png"
+      data-background-size: contain
+      data-background-opacity: "0.05"
+    incremental: false
+    smaller: false
+    scrollable: true
+    menu:
+      side: left
+      width: normal
+    preview-links: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+      buttons: false
+    transition: slide
+    background-transition: fade
+    slide-number: true
+---
+
+## About me
+
+<iframe
+  src="https://acanalejo.github.io/"
+  style="position:absolute;
+         top:0;
+         left:0;
+         width:100%;
+         height:100%;
+         border:none;">
+</iframe>
+
+---
+
+<div style="position: relative; width: 900px; height: 520px; margin: 0 auto;">
+
+  <img src="guardian_trump.png"
+       style="position:absolute; left:0; top:0;">
+
+  <img class="fragment"
+       data-fragment-index="1"
+       src="economist_democracy.png"
+       style="position:absolute; left:50px; top:40px;">
+
+  <img class="fragment"
+       data-fragment-index="2"
+       src="vdem_report.png"
+       style="position:absolute; left:300px; top:80px;">
+
+</div>
+
+## The Politics of Democratic Backsliding
+
+<div style="height:48px;"></div>
+
+. . .
+
+- Theories of democracy and backsliding *(Block I)*
+
+. . .
+
+- Democratic backsliding from the perspective of **elites** *(Block II)* and **voters** *(Block III)*
+
+. . .
+
+- Trends and current debates *(Block IV)*
+
+. . .
+
+**Goal:** assess the extent of democratic decline and the factors contributing to it
+
+
+## Course organization
+
+. . .
+
+- **Block I. Democracy and Democratic Backsliding** (***27.02.2026*** /
+9:00–15:30) — INE 220
+
+. . .
+
+- **Block II. The Supply-Side of Democratic Backsliding** (***13.03.2026*** /
+9:00–17:30) *— INE 220*
+
+. . .
+
+
+- **Block III. The Demand-Side of Democratic Backsliding**
+(***17.04.2026*** / 9:00–17:30) *— INE 220*
+
+. . .
+
+- **Block IV. Trends and Debates on Democratic Backsliding**
+(***15.05.2026*** / 15:45–17:30) *— 4B02*
+
+
+## Course evaluation
+
+. . .
+
+1. Attend all the sessions
+
+
+. . .
+
+2. Do the **mandatory readings** before each session
+
+. . .
+
+3. Participate actively
+
+. . .
+
+4. Write two **response papers**
+
+. . .
+
+5. **Present a case study of a country under democratic backsliding**
+
+---
+
+<br>
+
+
+```{r echo=FALSE, fig.width=6, fig.height=3, fig.align = "center"}
+# Load necessary library
+library(ggplot2)
+
+# Data for grading policy
+grades <- data.frame(
+  Category = c("Class Participation", "Response papers", "Presentation"),
+  Percentage = c(10, 40, 50)
+)
+
+# Reorder the levels of Category based on Percentage from higher to lower
+grades$Category <- factor(grades$Category, levels = grades$Category[order(-grades$Percentage)])
+
+# Create a bar chart
+ggplot(grades, aes(x = reorder(Category, -Percentage), y = Percentage, fill = Category)) +
+  geom_bar(stat = "identity") +
+  geom_text(aes(label = paste0(Percentage, "%")), vjust = -0.5) +  # Add percentage labels
+  theme_minimal() +
+  labs(title = "Grading Policy Breakdown", x = "Category", y = "Percentage") +  # Remove x-axis label
+  scale_fill_brewer(palette = "Set2") +
+  ylim(0,60) +
+  theme(legend.position = "right",  # Add legend for categories
+        legend.title = element_blank(),  # Remove legend title
+        axis.text.x = element_blank(),  # Remove x-axis text
+        plot.title = element_text(hjust = 0.5))  # Center title
+```
+
+
+
+
+## First block this Friday !!
+
+<br>
+
+. . .
+
+- **Within registration period**
+
+. . .
+
+- The first session will cover the *course content* and *organization* in depth
+
+. . .
+
+- I hope to see many of you there! 👀
+
+
+---
+
+<br>
+
+![](questions.png){fig-align="center"}
+
+
+## Thanks! :slightly_smiling_face:
+
+<br>
+
+<br>
+
+<br>
+
+<center>[alvaro.canalejo@unilu.ch](alvaro.canalejo@unilu.ch)</center>
