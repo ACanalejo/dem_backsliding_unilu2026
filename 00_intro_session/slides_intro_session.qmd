@@ -5,7 +5,7 @@ author: "Dr. Álvaro Canalejo-Molero"
 institute: "University of Lucerne"
 bibliography: ../00_bibliography/dem_backsliding.bib
 csl: ../00_bibliography/apa.csl
-toc: true
+toc: false
 toc-depth: 1
 number-sections: false
 echo: FALSE
@@ -42,15 +42,30 @@ format:
 
 ## About me
 
-<iframe
-  src="https://acanalejo.github.io/"
-  style="position:absolute;
-         top:0;
-         left:0;
-         width:100%;
-         height:100%;
-         border:none;">
-</iframe>
+<br>
+
+. . .
+
+**Dr. Álvaro Canalejo-Molero**
+
+<div style="font-size:90%">
+
+<ul>
+<li class="fragment">Postdoctoral researcher at the SNF-funded project <a href="https://www.unilu.ch/en/faculties/faculty-of-humanities-and-social-sciences/institutes-departements-and-research-centres/department-of-political-science/research/digitalization-and-political-conflict-parties-voters-and-electoral-alignment-digipol/#section=c122045">DIGIPOL</a> and the Chair of Political Behaviour and Communication</li>
+
+<li class="fragment">PhD in Political and Social Sciences from the <a href="https://www.eui.eu/en/home">EUI</a></li>
+
+<li class="fragment">Interested in <strong>political behaviour</strong>, <strong>comparative politics</strong>, <strong>democratic attitudes and preferences</strong>, <strong>quantitative methods</strong></li>
+
+<li class="fragment">Originally from the <a href="https://www.architecturaldigest.com/story/cordoba-spain-has-most-unesco-world-heritage-sites">city with the most UNESCO heritage sites in the world</a></li>
+
+<li class="fragment">You can find more information about me in <a href="https://acanalejo.github.io/">my personal website</a></li>
+</ul>
+
+</div>
+
+# What is the course about?
+
 
 ---
 
@@ -71,52 +86,54 @@ format:
 
 </div>
 
+## 🧐
+
+<div style="height:1.2em;"></div>
+
+. . .
+
+- What is **democratic backsliding**?
+
+. . .
+
+- How pervasive is it? Is it a **global threat**?
+
+. . .
+
+- What ***explains*** democratic backsliding?
+
+  ::: {.fragment}
+  - What is the **role of elites**?
+  :::
+
+  ::: {.fragment}
+  - And of **voters**?
+  :::
+  
+. . .
+
+- Can democratic **backsliding reverse**? And be **fought back**?
+
+
 ## The Politics of Democratic Backsliding
 
-<div style="height:48px;"></div>
+<br>
 
-. . .
+<div style="font-size:90%">
 
-- Theories of democracy and backsliding *(Block I)*
+<ul>
+<li class="fragment"><strong>Block I. Democracy and Democratic Backsliding</strong> (27.02.2026 / 9:00–15:30) — INE 220</li>
 
-. . .
+<li class="fragment"><strong>Block II. The Supply-Side of Democratic Backsliding</strong> (13.03.2026 / 9:00–17:30) — INE 220</li>
 
-- Democratic backsliding from the perspective of **elites** *(Block II)* and **voters** *(Block III)*
+<li class="fragment"><strong>Block III. The Demand-Side of Democratic Backsliding</strong> (17.04.2026 / 9:00–17:30) — INE 220</li>
 
-. . .
+<li class="fragment"><strong>Block IV. Trends and Debates on Democratic Backsliding</strong> (15.05.2026 / 15:45–17:30) — 4B02</li>
+</ul>
 
-- Trends and current debates *(Block IV)*
+</div>
 
-. . .
-
-**Goal:** assess the extent of democratic decline and the factors contributing to it
-
-
-## Course organization
-
-. . .
-
-- **Block I. Democracy and Democratic Backsliding** (***27.02.2026*** /
-9:00–15:30) — INE 220
-
-. . .
-
-- **Block II. The Supply-Side of Democratic Backsliding** (***13.03.2026*** /
-9:00–17:30) *— INE 220*
-
-. . .
-
-
-- **Block III. The Demand-Side of Democratic Backsliding**
-(***17.04.2026*** / 9:00–17:30) *— INE 220*
-
-. . .
-
-- **Block IV. Trends and Debates on Democratic Backsliding**
-(***15.05.2026*** / 15:45–17:30) *— 4B02*
-
-
-## Course evaluation
+## Course requirements and evaluation
 
 . . .
 
@@ -171,10 +188,34 @@ ggplot(grades, aes(x = reorder(Category, -Percentage), y = Percentage, fill = Ca
         plot.title = element_text(hjust = 0.5))  # Center title
 ```
 
+## Learning outcomes
+
+By the end of this course, you will be able to...
+
+<div style="height:0.6em;"></div>
+
+<div style="font-size:90%">
+
+<ol>
+<li class="fragment">...understand **key theories of democracy and democratic erosion**, and **assess major threats, trends, and forms of resilience**.</li>
+
+<li class="fragment">...**critically evaluate quantitative research on democracy and political behavior**, assessing theory and empirical strategy.</li>
+
+<li class="fragment">...**write critical response papers** on scientific articles related to democracy and political behavior.</li>
+
+<li class="fragment">...**debate with colleagues and communicate complex concepts** effectively to a broad audience.</li>
+</ol>
 
 
+</div>
 
-## First block this Friday !!
+
+---
+
+![](democracy_collapse.png){fig-align="center"}
+
+
+## First block this Friday !
 
 <br>
 
