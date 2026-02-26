@@ -258,11 +258,10 @@ Bermeo, Nancy. (2016). On Democratic Backsliding. *Journal of Democracy*, 27(1):
 Waldner, David, and Ellen Lust. (2018). Unwelcome change: Coming to terms with democratic backsliding. *Annual Review of Political Science*, 21: 93-113.
 
 ***Additional readings***
-  
+
+Huntington, S. P. (1991). *The third wave* (Vol. 199, No. 1). Norman: University of Oklahoma Press. *Chapter 1*
+
 Lührmann, A., & Lindberg, S. I. (2019). A third wave of autocratization is here: what is new about it?. *Democratization*, 26(7), 1095-1113.
-
-Carothers, T., & Hartnett, B. (2024). Misunderstanding democratic backsliding. *Journal of Democracy*, 35(3), 24-37.
-
 ### Block II. The Supply-Side of Democratic Backsliding (13.03.2026 / 9:00–17:30)
 
 #### Session 4. Weakening Horizontal Accountability (13.03.2026 / 9:00–10:45)
