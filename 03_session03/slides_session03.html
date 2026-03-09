@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="slides_session03_files/libs/clipboard/clipboard.min.js"></script>
+<script src="slides_session03_files/libs/quarto-html/tabby.min.js"></script>
+<script src="slides_session03_files/libs/quarto-html/popper.min.js"></script>
+<script src="slides_session03_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="slides_session03_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="slides_session03_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="slides_session03_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Dr.&nbsp;Álvaro Canalejo-Molero">
+  <title>What is Democratic Backsliding?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="slides_session03_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="slides_session03_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="slides_session03_files/libs/revealjs/dist/theme/quarto-c08057a6b5520710906c7debfebd557a.css">
+  <link href="slides_session03_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="slides_session03_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="slides_session03_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="slides_session03_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="slides_session03_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="slides_session03_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="../00_images/unilu_building.png" data-background-opacity="0.05" data-background-size="contain" class="quarto-title-block center">
+  <h1 class="title">What is Democratic Backsliding?</h1>
+  <p class="subtitle">The Politics of Democratic Backsliding <br> Session 03</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Dr.&nbsp;Álvaro Canalejo-Molero 
+</div>
+        <p class="quarto-title-affiliation">
+            University of Lucerne
+          </p>
+    </div>
+</div>
+
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Table of contents</h2>
+<ul>
+<li><a href="#/introduction" id="/toc-introduction">Introduction</a></li>
+<li><a href="#/the-context-of-democratic-backsliding" id="/toc-the-context-of-democratic-backsliding">The context of democratic backsliding</a></li>
+<li><a href="#/autocratization-and-backsliding" id="/toc-autocratization-and-backsliding">Autocratization and backsliding</a></li>
+<li><a href="#/questions-and-debates" id="/toc-questions-and-debates">Questions and debates</a></li>
+<li><a href="#/our-analytical-framework" id="/toc-our-analytical-framework">Our analytical framework</a></li>
+<li><a href="#/conclusion" id="/toc-conclusion">Conclusion</a></li>
+</ul>
+</nav>
+</section>
+<section>
+<section id="introduction" class="title-slide slide level1 center">
+<h1>Introduction</h1>
+<aside class="notes">
+<p>~ 5 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="this-sessions-goals" class="slide level2">
+<h2>This session’s goals</h2>
+<p><br></p>
+<div class="fragment">
+<ul>
+<li>Situate democratic backsliding in <strong>historical perspective</strong></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Situate democratic backsliding in the <strong>autocratization literature</strong></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Identify the <strong>idiosyncratic characteristics</strong> of democratic backsliding</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Set up the <strong>analytical framework</strong> for the rest of the course</li>
+</ul>
+<aside class="notes">
+<p>The session has four substantive blocks plus conclusion. The arc: historical context → conceptual debate → evidence and open questions → the course framework. .</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section></section>
+<section>
+<section id="the-context-of-democratic-backsliding" class="title-slide slide level1 center">
+<h1>The context of democratic backsliding</h1>
+<aside class="notes">
+<p>~ 15 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="democratization-in-waves" class="slide level2 smaller">
+<h2>Democratization in waves</h2>
+<p><br></p>
+<div class="fragment">
+<p>Huntington (1991) identifies <strong>three waves</strong> of democratization</p>
+</div>
+<div class="fragment">
+<ul>
+<li><p>The <strong>first wave (1828–1926)</strong>: gradual suffrage expansion in the West</p>
+<ul>
+<li>USA, France, UK, Argentina, Switzerland, etc.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><p>The <strong>second wave (1945–1962)</strong>: Allied victory in WWII, decolonisation, Cold War</p>
+<ul>
+<li>Italy, Japan, India, West Germany, etc.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><p>The <strong>third wave (1974- 1990s)</strong>: breakdown authoritarian regimes in Europe and the Americas, end of the COld War</p>
+<ul>
+<li>Portugal, Spain, Brazil, Poland, etc.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>The first wave followed gradual suffrage expansion in the 19th-century West; the second followed Allied victory in WWII; the third began with the Carnation Revolution in Portugal in 1974 and accelerated through the 1980s and 1990s</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="the-third-wave-of-democratization" class="slide level2">
+<h2>The third wave of democratization</h2>
+<p><br></p>
+<div class="fragment">
+<div class="text-small">
+<ul>
+<li>It started in <strong>Southern Europe</strong> (Portugal 1974, Greece 1974, Spain 1975)</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<div class="text-small">
+<ul>
+<li>Spread through <strong>Latin America</strong> in the 1980s and ended with the fall of the communism in <strong>Eastern Europe</strong> after 1989</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<div class="text-small">
+<ul>
+<li>By the mid-1990s, for the first time in history, <strong>more than half</strong> of all countries qualified as democratic</li>
+</ul>
+</div>
+</div>
+<div class="fragment">
+<p>But the wave did <strong><em>not always</em></strong> produce <strong><em>uniformly consolidated democracies</em></strong></p>
+</div>
+</section>
+<section id="hybrid-regimes" class="slide level2 smaller">
+<h2>Hybrid regimes</h2>
+<p><br></p>
+<div class="fragment">
+<p>The third wave gave rise to regimes that were <strong>neither fully democratic nor clearly authoritarian</strong></p>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Competitive authoritarianism</strong> (Levitsky &amp; Way, 2002): elections exist but playing field is heavily skewed in favour of incumbents <span style="color:#9a9a9a;">(e.g., Russia 1990s-2000s)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Electoral authoritarianism</strong> (Schedler, 2006): multiparty elections are held but are not genuinely competitive <span style="color:#9a9a9a;">(e.g., Mexico’s PRI-era)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Illiberal democracy</strong> (Zakaria, 1997): elections are free and fair but civil liberties and rule of law are weak <span style="color:#9a9a9a;">(e.g., Hungary post-2010)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Delegative democracy</strong> (O’Donnell, 1994): elected presidents govern with few horizontal accountability constraints <span style="color:#9a9a9a;">(e.g., Menem’s Argentina)</span></li>
+</ul>
+<aside class="notes">
+<p>These categories emerged in direct response to the third-wave legacy. Note that they differ in what they emphasise: Levitsky &amp; Way focus on the skewing of electoral competition; Schedler on the manipulation of elections while maintaining their facade; Zakaria on the mismatch between electoral legitimacy and liberal rights; O’Donnell on the weakness of horizontal accountability. All four are relevant to backsliding — each describes a possible destination when a democracy erodes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="how-do-hybrid-regimes-fit-our-definition" class="slide level2 smaller">
+<h2>How do hybrid regimes fit our definition?</h2>
+<p><br></p>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<p><strong>Dahl</strong></p>
+<p><em>Polyarchies are political systems where contestation and participation are institutionally guaranteed</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><strong>Przeworski</strong></p>
+<p><em>Democracies are political systems in which parties lose elections and alternation is possible</em></p>
+</div></div>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="questions.png" class="quarto-figure quarto-figure-center" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="hybrid-regimes-and-democratic-backsliding" class="slide level2">
+<h2>Hybrid regimes and democratic backsliding</h2>
+<p><br></p>
+<div class="fragment">
+<p>The emergence of hybrid regimes opens a <strong>conceptual space</strong> between liberal democracy and classic autocracy</p>
+</div>
+<div class="fragment">
+<div style="height:0.6em;">
+
+</div>
+<p>Not all regimes can be clearly distinguished as autocracies or democracies, <strong>gradients exist</strong></p>
+</div>
+<div class="fragment">
+<blockquote>
+<p>That means autocratization does <strong><em>not</em></strong> need to be a <strong><em>sudden regime change</em></strong>; it can take <strong>subtle</strong> and <strong>gradual forms</strong></p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="autocratization-and-backsliding" class="title-slide slide level1 center">
+<h1>Autocratization and backsliding</h1>
+<aside class="notes">
+<p>~ 40 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-autocratization-waves" class="slide level2 smaller">
+<h2>The autocratization waves</h2>
+<p><br></p>
+<div class="fragment">
+<p>Together with the democratization waves, Huntington identifies <strong>two periods of democratic reversal</strong> (or autocratization)</p>
+</div>
+<div class="fragment">
+<ul>
+<li>The <strong>first reversal (1922–1942)</strong>: rise of fascism and authoritarianism, foreign invasions
+<ul>
+<li>Germany, Italy, Spain, Austria, Japan, etc.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>The <strong>second reversal (1960–1975)</strong>: Cold War military coups, especially in the Global South
+<ul>
+<li>Brazil, Argentina, Ghana, Pakistan, etc.</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<p>Both waves were dominated by <strong>sudden, illegal power grabs</strong></p>
+</div>
+</section>
+<section id="a-third-autocratization-wave" class="slide level2 smaller">
+<h2>A third autocratization wave?</h2>
+<p><br></p>
+<div class="fragment">
+<p>Today’s debate focuses on whether we are witnessing a <strong>third period of democratic reversal</strong></p>
+</div>
+<div class="fragment">
+<p><strong>Empirical studies</strong> already point toward this possibility <span style="color:#9a9a9a;">(e.g., Lührmann &amp; Lindberg, 2019)</span></p>
+</div>
+<div class="fragment">
+<p><br></p>
+<p>However, a <strong>discussion</strong> exists, motivated because contemporary autocratization looks <strong>different</strong> from the past:</p>
+<ul>
+<li><p>We no longer witness the <strong>sudden regime changes</strong> that characterized the former reversal periods</p></li>
+<li><p>Instead, it is argued that we are in a period of <strong>gradual, subtle, and state-led</strong> democratic debilitation</p></li>
+</ul>
+</div>
+</section>
+<section id="autocratization" class="slide level2 smaller">
+<h2>Autocratization</h2>
+<div class="fragment">
+<p><br></p>
+<p>Following Lührmann &amp; Lindberg (2019), <strong>autocratization</strong> is the substantial decline of democratic regime attributes</p>
+</div>
+<div class="fragment">
+<p>It contrasts <strong>democratization</strong>, understood as the reverse process: any substantial move <em>toward</em> democracy</p>
+</div>
+<div class="fragment">
+<p><br></p>
+<p>Three <strong>autocratization subtypes</strong>, depending on starting point and endpoint:</p>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Democratic recession</strong></p>
+<p>Decline <em>within</em> a democracy, loses qualities but remains formally democratic</p>
+</div><div class="column" style="width:33%;">
+<p><strong>Democratic breakdown</strong></p>
+<p>A democracy <em>crosses the threshold</em> into autocracy</p>
+</div><div class="column" style="width:33%;">
+<p><strong>Autocratic consolidation</strong></p>
+<p>Decline <em>within</em> an already-autocratic regime</p>
+</div></div>
+<aside class="notes">
+<p>This taxonomy is from Lührmann &amp; Lindberg’s Figure 1.Democratic recession stays in the democratic zone but moves left. Democratic breakdown crosses the threshold. Autocratic consolidation stays in the autocratic zone. Democratic backsliding (Bermeo’s term) is closest to “democratic recession” — state-led erosion starting from a democratic position. Note that Lührmann &amp; Lindberg prefer “autocratization” as the overarching term precisely because “backsliding” implies involuntary reversal and implies you end up where you started — neither of which is necessarily true.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="traditional-forms-of-autocratization" class="slide level2 smaller">
+<h2>Traditional forms of autocratization</h2>
+<div class="fragment">
+<p><br></p>
+<p>Traditional forms of autocratization focus on sudden ruptures to democracy, leading to regime change, i.e.&nbsp;<strong>democratic breakdown</strong></p>
+</div>
+<div class="fragment">
+<p><br></p>
+<p>Bermeo (2016) identifies three <strong>classic forms</strong> of autocratization:</p>
+<p><br></p>
+<div class="columns">
+<div class="column fragment" style="width:33%;">
+<p><strong>Classic coups d’état</strong></p>
+<p>Illegal military ouster of elected government; open-ended seizure of power</p>
+</div><div class="column fragment" style="width:33%;">
+<p><strong>Executive coups</strong> <em>(autogolpes)</em></p>
+<p>Elected executive <em>suspends the constitution</em> to concentrate power in one swift move</p>
+</div><div class="column fragment" style="width:33%;">
+<p><strong>Election-day vote fraud</strong></p>
+<p>Blatant manipulation of polling-day process: ballot stuffing, count falsification, station-level fraud</p>
+</div></div>
+</div>
+</section>
+<section id="classic-coups-détat" class="slide level2">
+<h2>Classic coups d’état</h2>
+<div style="height:0.6em;">
+
+</div>
+<div class="fragment">
+<p>Illegal attempts by <strong>military or state elites</strong> to oust a sitting executive</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Hallmark of Cold War autocratization; generated long-lasting, brutal dictatorships</li>
+</ul>
+</div>
+<div class="fragment">
+<p>The probability of a <em>successful</em> coup reached <strong>near-zero in the early 2000s</strong></p>
+</div>
+<div class="fragment">
+<ul>
+<li>International community now sanctions coup-makers; aid conditionality; norms against illegal power transfer</li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="fig1_bermeo.png" class="r-stretch quarto-figure-center"><p class="caption">Bermeo (2016)</p></section>
+<section id="executive-coups-autogolpes" class="slide level2">
+<h2>Executive coups <em>(autogolpes)</em></h2>
+<div style="height:0.6em;">
+
+</div>
+<div class="fragment">
+<p>An <strong>elected executive</strong> suspends the constitution; concentrates power in one sudden move</p>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Five</strong> executive <strong>coups</strong> in democracies during the <strong>1990s</strong> alone (e.g.&nbsp;<em>Peru 1992</em>)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>The elected executive retains office but <strong>transforms the regime</strong>: legislative suspension, emergency decrees, constitutional replacement</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Only Niger (2010) between <strong>2000 and 2013</strong></p>
+<aside class="notes">
+<p>Fujimori’s 1992 autogolpe in Peru is the canonical case: democratically elected, then suspended Congress and the judiciary in April 1992, ruling by decree. What distinguishes this from executive aggrandizement (which we cover next) is speed and directness: the constitution is suspended outright rather than gradually hollowed out. Note that even Hitler’s use of the Enabling Act in 1933 falls into this category — legal access to power followed by sudden abolition of constitutional constraints.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="election-day-vote-fraud" class="slide level2">
+<h2>Election-day vote fraud</h2>
+<p><br></p>
+<div class="fragment">
+<p>Blatant manipulation <strong>on polling day</strong>: ballot stuffing, count falsification, station-level fraud</p>
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Near-consensus that open, visible fraud has <strong>declined</strong> since the 1990s</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Rise of <strong>international election monitoring</strong> made obvious fraud more costly</li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="fig2_bermeo.png" class="r-stretch quarto-figure-center"><p class="caption">Bermeo (2016)</p></section>
+<section id="what-is-different-now" class="slide level2 scrollable">
+<h2>What is different now?</h2>
+<div class="fragment">
+<p>Autocratization today largely operates through <strong>apparently legal or even pro-democratic channels</strong></p>
+</div>
+<div class="fragment">
+<div style="height:0.6em;">
+
+</div>
+<p>Three <strong>key features</strong> that distinguish it from older forms:</p>
+</div>
+<div class="fragment">
+<ol type="1">
+<li><p><strong>State-led</strong>: incumbents, not militaries or outside forces, drive the process</p></li>
+<li><p><strong>Incremental</strong>: changes accumulate piece by piece; no single dramatic rupture</p></li>
+<li><p><strong>Legitimated</strong>: each step can be defended as lawful, democratic, or in the public interest</p></li>
+</ol>
+</div>
+</section>
+<section id="promissory-coups" class="slide level2">
+<h2>Promissory coups</h2>
+<div class="fragment">
+<p>Coups that <strong>frame the ouster as a defence of democracy</strong>, promising elections and restoration</p>
+</div>
+<div class="fragment">
+<div style="height:0.6em;">
+
+</div>
+<p>Today: <strong>85%</strong> of successful coups are promissory (up from 35% before 1990)</p>
+</div>
+<div class="fragment">
+<ul>
+<li>The promise is almost never kept in full: few promissory coups were followed quickly by competitive elections</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Post-coup elections <strong>tend to favour</strong> coup-makers or their allies</li>
+</ul>
+<aside class="notes">
+<p>Examples: Haiti 1991 (coup “correcting” the democratic process), Honduras 2009, Fiji 2006, Madagascar 2009, Mali 2012, Egypt 2013. Bermeo’s detailed analysis of twelve successful promissory coups between 1990 and 2012 shows a dismal record: elections delayed, won by coup allies, or followed by renewed instability. The key analytical point: the <em>promissory</em> framing is itself a form of legitimation. Coup-makers have learned that international costs are lower if they claim to be restoring rather than destroying democracy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="executive-aggrandizement" class="slide level2">
+<h2>Executive aggrandizement</h2>
+<div class="fragment">
+<p>Elected executives <strong>weaken checks on executive power one by one</strong> through legal channels</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Institutional changes are voted on, decreed, or passed by legislature, often framed as having democratic mandate</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Key targets inlcude the <strong>courts, media, electoral commissions</strong> and <strong>civil society</strong></li>
+</ul>
+<div style="height:0.6em;">
+
+</div>
+</div>
+<div class="fragment">
+<p>Each change, taken alone, might be defensible it is the <strong>cumulative pattern</strong> that reveals the intent</p>
+<aside class="notes">
+<p>Bermeo’s Turkey case study is detailed and worth walking through briefly. AKP won in 2002, then used electoral mandates to: revise the penal code (criminalising certain speech, 2004), pass constitutional changes via referendum (packed the Constitutional Court, 2010), and pass legislation giving the justice minister direct control over judicial appointments (2014). Each step was legal, and some (challenging the old military establishment) even had a democratising veneer. But cumulatively they dismantled judicial independence. Note Bermeo: the irony is that these changes were “legitimated through the very institutions democracy promoters have prioritised.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="strategic-electoral-manipulation" class="slide level2">
+<h2>Strategic electoral manipulation</h2>
+<div class="fragment">
+<p>Actions that <strong>tilt the electoral playing field</strong> without producing obvious fraud on polling day</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Hampering media access, misusing public funds for incumbents, keeping opposition off ballots, etc.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>It differs from election-day fraud because it occurs <strong>long before polling day</strong> and rarely violates the letter of the law</li>
+</ul>
+<div style="height:0.6em;">
+
+</div>
+</div>
+<div class="fragment">
+<p>It is partly a consequence of <strong>better election monitoring</strong>; politicians shifted manipulation earlier in the cycle</p>
+<aside class="notes">
+<p>Bermeo’s Figure 3 shows opposition harassment and leader disqualification rising from the early 1990s to 2010. This is the flip side of declining election-day fraud: the manipulation hasn’t gone away, it has moved upstream. Note the strategic logic: by the time the international monitors arrive for election day, the damage is done. The media landscape has been captured, opposition candidates have been disqualified or harassed, voter registration has been manipulated. Elections are “clean” on the day — but the context makes them meaningless.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="new-vs.-old-forms-of-autocratization" class="slide level2">
+<h2>New vs.&nbsp;old forms of autocratization</h2>
+<p><br></p>
+<div class="fragment">
+<div class="text-small">
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Old form</th>
+<th>New form</th>
+<th>Key difference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Classic coup d’état</strong></td>
+<td><strong>Promissory coup</strong></td>
+<td>Framed as democratic restoration; promises elections</td>
+</tr>
+<tr class="even">
+<td><strong>Executive coup</strong> <em>(autogolpe)</em></td>
+<td><strong>Executive aggrandizement</strong></td>
+<td>Gradual and legal; no single constitutional rupture</td>
+</tr>
+<tr class="odd">
+<td><strong>Election-day vote fraud</strong></td>
+<td><strong>Strategic electoral manipulation</strong></td>
+<td>Moves before polling day; rarely violates the letter of the law</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="what-is-then-democratic-backsliding" class="slide level2">
+<h2>What is then democratic backsliding?</h2>
+<p><br></p>
+<div class="fragment">
+<p>Democratic backsliding is a <strong>contested concept</strong>…</p>
+</div>
+<div class="fragment">
+<p><strong>Bermeo (2016)</strong>: <em>“state-led debilitation or elimination of any of the political institutions that sustain an existing democracy”</em></p>
+</div>
+<div class="fragment">
+<p><strong>Waldner &amp; Lust (2018)</strong>: <em>“deterioration of qualities associated with democratic governance,</em> <strong><em>within any regime”</em></strong></p>
+</div>
+<div class="fragment">
+<p><strong>Lührmann &amp; Lindberg (2019)</strong>: prefers to talk of <strong><em>democratic erosion</em></strong> as a <em>state-led form of</em> <strong><em>democratic recession</em></strong> that happens <em>subtly an incrementally</em></p>
+</div>
+</section>
+<section id="democratic-backsliding" class="slide level2">
+<h2>Democratic backsliding</h2>
+<p><br></p>
+<p>But there are some <strong>points of agreement</strong>:</p>
+<div class="fragment">
+<ul>
+<li>It is <strong>state-led</strong>: driven by incumbents, not opposition or civil society</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>It operates through <strong>legal channels</strong>: it uses and abuses existing rules and institutions</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>It is <strong>incremental</strong>: a process, not a single event</li>
+</ul>
+<aside class="notes">
+<p>Waldner &amp; Lust go further than Bermeo: they allow backsliding to occur in non-democracies too (erosion of whatever democratic qualities a hybrid regime has). For this course, we follow Bermeo’s state-led, democracy-focused definition, while keeping Waldner &amp; Lust’s emphasis on incrementalism and intraregime change.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section></section>
+<section>
+<section id="questions-and-debates" class="title-slide slide level1 center">
+<h1>Questions and debates</h1>
+<aside class="notes">
+<p>~ 10 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-extent-of-democratic-backsliding" class="slide level2">
+<h2>The extent of democratic backsliding</h2>
+<div class="fragment">
+<p><br></p>
+<p>Backsliding is <strong>difficult to measure</strong>: gradual and incremental</p>
+</div>
+<div class="fragment">
+<p><br></p>
+<p>Efforts are growing, but <strong>the debate is ongoing</strong></p>
+</div>
+<div class="fragment">
+<ul>
+<li>How many countries are really affected?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>How severe is the decline?</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><em>Session 12</em></p>
+</blockquote>
+</div>
+</section>
+<section id="the-breadth-of-backsliding" class="slide level2">
+<h2>The Breadth of Backsliding</h2>
+<div class="fragment">
+<p><br></p>
+<p>The <strong>consequences</strong> of democratic backsliding also remains <strong>unclear</strong>:</p>
+</div>
+<div class="fragment">
+<ul>
+<li>How likely is it to lead to democratic breakdown?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>How likely is it to result in hybrid regimes?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Is reversal possible? Can be contained or resisted?</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><em>Session 13</em></p>
+</blockquote>
+</div>
+</section>
+<section id="the-politics-of-backsliding" class="slide level2">
+<h2>The Politics of Backsliding</h2>
+<p><br></p>
+<div class="fragment">
+<p>To answer the previous questions, it is first necessary to understand <strong>how</strong> and <strong>why</strong> democratic backsliding occurs in the first place</p>
+</div>
+<div class="fragment">
+<ul>
+<li>What are the <strong>mechanisms</strong> through which leaders erode democracy?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>What <strong>conditions</strong> enable backsliding?</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><em>Sessions 4 to 11</em></p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="our-analytical-framework" class="title-slide slide level1 center">
+<h1>Our analytical framework</h1>
+<aside class="notes">
+<p>~ 10 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<p><br></p>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 4em; font-family: sans-serif; font-size: 0.7em;">
+<div style="text-align: center; display: flex; flex-direction: column; gap: 0.5em;">
+<div style="background: #2980b9; color: white; padding: 0.4em 0.8em; border-radius: 4px; font-weight: bold; font-size: 0.95em;">
+<p>Supply side (Elites)</p>
+</div>
+<div class="fragment" data-fragment-index="1">
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p><strong>Mechanisms</strong></p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4em;">
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Horizontal<br>accountability<br><em>(S04)</em></p>
+</div>
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Vertical<br>accountability<br><em>(S05)</em></p>
+</div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="2">
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p><strong>Conditions</strong></p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4em;">
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Democratic<br>norms<br><em>(S06)</em></p>
+</div>
+<div style="background: #d6eaf8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Populism &amp;<br>parties<br><em>(S07)</em></p>
+</div>
+</div>
+</div>
+</div>
+<div style="display: flex; align-items: center; justify-content: center; padding-top: 1.5em;">
+<div class="fragment" data-fragment-index="5" style="font-size: 3em; color: #2c3e50; margin-top: 2em;">
+<p>⇄</p>
+</div>
+</div>
+<div style="text-align: center; display: flex; flex-direction: column; gap: 0.5em;">
+<div style="background: #c0392b; color: white; padding: 0.4em 0.8em; border-radius: 4px; font-weight: bold; font-size: 0.95em;">
+<p>Demand side (Citizens)</p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p><strong>Mechanisms</strong></p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4em;">
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Support for<br>democracy<br><em>(S08)</em></p>
+</div>
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Democratic<br>hypocrisy<br><em>(S09)</em></p>
+</div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="4">
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p><strong>Conditions</strong></p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.4em;">
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Structural<br>factors<br><em>(S10)</em></p>
+</div>
+<div style="background: #fadbd8; padding: 0.4em 0.5em; border-radius: 4px; font-size: 0.85em; text-align: center;">
+<p>Media<br>environment<br><em>(S11)</em></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>This section introduces the analytical framework structuring the rest of the course. Supply side: elites initiate backsliding through two mechanisms — weakening horizontal accountability (checks and balances, courts, Session 04) and vertical accountability (elections, civil rights, Session 05) — enabled by two background conditions: erosion of democratic norms (Session 06) and populism/hollowing of party democracy à la Mair (Session 07). Demand side: citizens tolerate or support backsliding — we examine support for democracy and political trust (Session 08), democratic hypocrisy and understanding of democracy (Session 09), structural background conditions (Session 10), and the media environment as connective tissue between supply and demand (Session 11). The interaction between the two sides is the core analytical puzzle: backsliding rarely succeeds without at least passive citizen acceptance.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-case-studies" class="slide level2">
+<h2>The case studies</h2>
+<p><br></p>
+<div class="fragment">
+<p>The goal is to apply this theoretical framework to a specific country’s backsliding episode</p>
+</div>
+<div class="fragment">
+<ul>
+<li>Connect <strong>theoretical mechanisms</strong> to <strong>empirical cases</strong></li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Observe <strong>variation</strong>: not all backsliding looks the same</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Identify <strong>gaps</strong>: where does the theory not fit?</li>
+</ul>
+<aside class="notes">
+<p>Remind students of the case study assignment from Session 01. The presentation schedule was distributed earlier. The case studies are designed to test the theoretical arguments against empirical reality — and to surface anomalies and scope conditions that the lectures may not capture. Students should be reading their country’s literature alongside the mandatory course readings.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section></section>
+<section>
+<section id="conclusion" class="title-slide slide level1 center">
+<h1>Conclusion</h1>
+<aside class="notes">
+<p>~ 10 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="democratic-backsliding-a-new-phenomenon" class="slide level2">
+<h2>Democratic backsliding: a new phenomenon?</h2>
+<p><br></p>
+<div class="fragment">
+<p>Autocratization exists since demcoracies appeared</p>
+</div>
+<div class="fragment">
+<p><strong>What is new</strong> about democratic backsliding:</p>
+</div>
+<div class="fragment">
+<ul>
+<li>It is <strong>state-led</strong></li>
+<li>It has a <strong>legal façade</strong></li>
+<li>It is <strong>subtle and incremental</strong></li>
+</ul>
+</div>
+</section>
+<section id="the-international-context" class="slide level2">
+<h2>The international context</h2>
+<p><br></p>
+<div class="fragment">
+<p>Democracy has become the <strong>global most legitimate form of government</strong> since 1989</p>
+</div>
+<div class="fragment">
+<p>International monitoring and aid conditionality <strong>reduced blatant fraud and coups</strong> but created incentives to shift to subtler forms</p>
+</div>
+<div class="fragment">
+<p>Backsliding is, paradoxically, evidence of democracy promotion’s <strong>partial success</strong></p>
+<aside class="notes">
+<p>This Bermeo point is counterintuitive and worth dwelling on. Because the international community sanctioned clear violations (coups, obvious fraud), politicians adapted. The shift from election-day fraud to strategic pre-election manipulation, and from executive coups to executive aggrandizement, reflects rational adaptation to external constraints. Backsliders play by the rules <em>just enough</em> to avoid triggering the most severe international responses.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="how-long-does-a-wave-last" class="slide level2">
+<h2>How long does a wave last?</h2>
+<div class="fragment">
+<p><br></p>
+<p>According to Lührmann &amp; Lindberg (2019):</p>
+<ul>
+<li><strong>First wave of autocratisation</strong>: approximately 16 years (1926–1942)</li>
+<li><strong>Second wave</strong>: approximately 16 years (1961–1977)</li>
+<li><strong>Third wave</strong>: began in <strong>1994</strong>; already over <strong>30 years</strong> ago <span class="emoji" data-emoji="thinking">🤔</span></li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>Is this a wave or a new equilibrium? What would “recovery” look like?</strong></p>
+</blockquote>
+</div>
+</section>
+<section id="class-activity" class="slide level2">
+<h2>Class activity</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Pair up and discuss:</strong></p>
+<blockquote>
+<p>Based on what we have reviewed today, where do you see democratic backsliding going <em>globally</em>?</p>
+</blockquote>
+</div><div class="text-small column fragment" style="width:40%;">
+<ul>
+<li>What gives you <strong>reason to expect more</strong> backsliding or breakdown?</li>
+<li>What gives you <strong>reason to expect recovery</strong>?</li>
+<li>Come up with a shared <strong>position and argument</strong></li>
+</ul>
+</div></div>
+<aside class="notes">
+<p>Give students 5 minutes in pairs, then 3 minutes for two or three pairs to share briefly. Do not adjudicate. Note explicitly: “We will return to this exact question in Session 14. I want to see whether your views have changed, and why.” This creates a narrative thread through the whole course.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+
+<img data-src="questions.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="next-block-13.03.2026" class="slide level2">
+<h2>Next block (13.03.2026)</h2>
+<div class="fragment">
+<p><strong>Block II: The Supply-Side of Democratic Backsliding</strong></p>
+<p><br></p>
+<ul>
+<li><p><strong>Session 04</strong>: Weakening Horizontal Accountability</p></li>
+<li><p><strong>Session 05</strong>: Weakening Vertical Accountability</p></li>
+<li><p><strong>Sessions 06</strong>: Weakening Democratic Norms</p></li>
+<li><p><strong>Sessions 07</strong>: Populism and the Weakening of ‘Party Democracy’</p></li>
+</ul>
+</div>
+</section>
+<section id="thanks" class="slide level2">
+<h2>Thanks! <span class="emoji" data-emoji="slightly_smiling_face">🙂</span></h2>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<center>
+<a href="mailto:alvaro.canalejo@unilu.ch">alvaro.canalejo@unilu.ch</a>
+</center>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../00_images/logo_unilu.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Hauptseminar - Spring Term 2026</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="slides_session03_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="slides_session03_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="slides_session03_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="slides_session03_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"width":"normal"},
+'chalkboard': {"buttons":false,"theme":"whiteboard","boardmarkerWidth":5},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
