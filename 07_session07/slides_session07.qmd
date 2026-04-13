@@ -1,0 +1,661 @@
+---
+title: "Populism and the Weakening of 'Party Democracy'"
+subtitle: "The Politics of Democratic Backsliding <br> Session 07"
+author: "Dr. Álvaro Canalejo-Molero"
+institute: "University of Lucerne"
+bibliography: ../00_bibliography/dem_backsliding.bib
+csl: ../00_bibliography/apa.csl
+toc: true
+toc-depth: 1
+number-sections: false
+echo: FALSE
+warning: FALSE
+output: TRUE
+from: markdown+emoji
+format:
+  revealjs:
+    theme:
+      - default
+      - custom.scss
+    logo: ../00_images/logo_unilu.png
+    footer: | 
+         Hauptseminar - Spring Term 2026
+    title-slide-attributes:
+      data-background-image: "../00_images/unilu_building.png"
+      data-background-size: contain
+      data-background-opacity: "0.05"
+    incremental: false
+    smaller: false
+    scrollable: true
+    menu:
+      side: left
+      width: normal
+    preview-links: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+      buttons: false
+    transition: slide
+    background-transition: fade
+    slide-number: true
+---
+
+# Introduction
+
+::: notes
+~ 5 minutes
+:::
+
+## Political parties {.smaller}
+
+<br>
+
+. . .
+
+Building on **Sartori (1976)**:
+
+> *A party is any political group identified by an official label that presents at elections, and is capable of placing through elections, candidates for public office*
+
+. . .
+
+<div style="height:0.2em;"></div>
+
+But parties do more than contest elections: they **structure** political competition and **link** citizens to the state
+
+. . .
+
+- They **aggregate** diverse interests into coherent programmes
+- They **recruit** political elites and socialize them into democratic institutions
+- They **organize** government and the opposition
+- They **mobilize** citizens and stimulate political participation
+
+::: notes
+Sartori's definition is deliberately minimal. The broader functions matter for this session: it is precisely those functions — aggregation, mobilization, representation — that parties have been losing.
+:::
+
+## Parties and democracy
+
+<br>
+
+
+::: {.text-small  .fragment}
+The birth of representative democracy is inseparable from the emergence of **organized factions** that structured representatives' interests and behaviour
+:::
+
+<br>
+
+::: {.text-small  .fragment}
+Parties and democracy **co-evolved**: as suffrage expanded, parties became the primary vehicle for translating mass preferences into government
+:::
+
+<br>
+
+::: {.text-small  .fragment}
+In the 2000s, scholars identified a **slippage of parties' traditional functions**
+:::
+
+::: {.text-small  .fragment}
+Today, we explore its relationship with **democratic backsliding**
+:::
+
+
+::: notes
+Modern representative democracy was not built before parties — it was built through them. This session explores the role of the slip of their representative function for democratic backsliding
+:::
+
+
+## This session's goals
+
+<br>
+
+. . .
+
+- Understand the concept of **party democracy**
+
+. . .
+
+- Explore the **weakening of party democracy**
+
+. . .
+
+- Discuss the relation between **populism**, the  weakening of party democracy, and democratic backsliding
+
+. . .
+
+- Students' presentation: the case of **United States**
+
+
+# The weakening of party democracy
+
+::: notes
+~ 15 minutes
+:::
+
+## Peter Mair
+
+
+::: {.columns}
+::: {.column width="50%" .text-small  .fragment}
+
+<br>
+
+- Irish political scientist (1951–2011), professor at the **European University Institute** in Florence
+
+- Leading scholar of **comparative party politics** and **European democracy**
+
+- Key works: *Ruling the Void* (2013), the cartel party thesis with Katz (1995), and extensive work on party systems and cleavage structures
+
+:::
+
+::: {.column width="5%"}
+
+
+:::
+
+::: {.column width="45%"}
+
+![](peter_mair.png){width="77%"}
+
+:::
+:::
+
+
+
+## Parties as intermediaries {.smaller}
+<span style="color:#9a9a9a;">*Mair, 2009*</span>
+
+<br>
+
+. . .
+
+Parties have a ***double function***
+
+<br>
+
+
+. . .
+
+::: {.columns}
+::: {.column width="50%" .text-small}
+
+### Representative
+
+Responsive to voters
+
+Accountable to the national constituency
+
+Rooted in civil society
+
+Partisan and ideological
+
+:::
+::: {.column width="50%" .text-small}
+
+### Governmental
+
+Responsible to multiple principals
+
+Accountable to supranational actors (EU, IMF...)
+
+Rooted in the state apparatus
+
+Technocratic and managerial
+
+:::
+:::
+
+## Party democracy {.smaller}
+<span style="color:#9a9a9a;">*Mair, 2009*</span>
+
+<br>
+
+. . .
+
+As long as parties fulfilled **both functions**, Mair spoke of **party democracy**:
+
+. . .
+
+> A form of democratic government in which parties are the central vehicle through which democratic life is organized — linking citizens to the state, structuring competition, and making government accountable
+
+. . .
+
+<br>
+
+Both functions **co-evolved** with parties themselves — from cadre parties to mass parties, the representative and governmental roles developed together
+
+
+## The evolution of political parties {.smaller}
+
+<br>
+
+. . .
+
+Party organizational forms have evolved across the 20th century:
+
+. . .
+
+- **Cadre/elite parties** *(19th century)*: small networks of notables; politics as elite affair
+
+. . .
+
+- **Mass parties** *(1880s–1960s)*: large membership organizations; strong roots in social cleavages (class, religion); genuine representative function
+
+. . .
+
+- **Catch-all parties** *(1960s–1980s)*: Kirchheimer (1966); ideological moderation; appeal to broad electorate; declining class/confessional anchoring
+
+. . .
+
+- **Cartel parties** *(1990s–present)*: Katz & Mair (1995); parties colonize the state; use public resources to survive; collusion between mainstream parties; representation function hollowed out
+
+::: notes
+The cartel party thesis is the immediate precondition for Mair's later diagnosis. Parties no longer need civil society because they fund themselves through the state. 
+:::
+
+## The hollowing of party democracy {.smaller}
+<span style="color:#9a9a9a;">*Mair, 2013*</span>
+
+<br>
+
+. . .
+
+A further step beyond the cartel party thesis: **"ruling the void"**
+
+. . .
+
+<br>
+
+Parties increasingly prioritize the **governmental function** at the expense of the **representative function**:
+
+. . .
+
+- They govern, but no longer **represent**
+- The space between parties and civil society grows
+- Citizens feel **unheard** even as parties continue to win elections and form governments
+
+::: notes
+Mair, *Ruling the Void* (2013, posthumous). Parties continue to govern but the societal foundations of that governance have eroded — hence "the void." This is the structural diagnosis that motivates the rest of the session.
+:::
+
+## The empirical evidence {.smaller}
+
+<br>
+
+. . .
+
+**Party membership** — Mair & van Biezen (2001); van Biezen, Mair & Poguntke (2012):
+
+. . .
+
+- Dramatic decline across all Western European countries since the 1970s
+- Average membership ratio fell from ~15% to ~5% of the electorate
+- Parties have *"all but abandoned any pretensions to being mass organizations"*
+
+. . .
+
+<br>
+
+**Party identification** — Dalton (2000): *"parties without partisans"*
+
+. . .
+
+- Systematic decline in party identification across advanced democracies
+- Rise of **independent voters** and **electoral volatility**
+
+::: notes
+Van Biezen, Mair & Poguntke (2012) document membership ratios across 22 European countries from the 1960s to the 2000s. Dalton uses survey evidence across democracies. Both converge: organizational and psychological ties between parties and citizens have weakened.
+:::
+
+
+## What happens when parties lose their representative role? {.smaller}
+
+<br>
+
+. . .
+
+- **Dissatisfaction** with mainstream parties and political institutions
+
+. . .
+
+- **Erosion of confidence** in representative democracy as a system
+
+. . .
+
+- Citizens perceive parties as all the same, governing in their own interest, not the public's
+
+
+. . .
+
+This creates the opportunity for **anti-establishment feelings** to emerge and for **populist parties** to exploit them
+
+
+# The populist challenge
+
+::: notes
+~ 10 minutes
+:::
+
+## What is populism? {.smaller}
+<span style="color:#9a9a9a;">*Mudde & Kaltwasser, 2017*</span>
+
+. . .
+
+Following the *ideational approach*, populism as a **thin-centred ideology**:
+
+. . .
+
+> Society is divided into two homogeneous and antagonistic camps — **"the pure people"** versus **"the corrupt elite"** — and politics should be an expression of the *volonté générale* (general will) of the people
+
+. . .
+
+Three core concepts:
+
+. . .
+
+- **The people**: sovereign, common people, or nation — a discursive construction; always unified, always virtuous
+- **The elite**: defined *morally* — corrupt, self-serving, and illegitimate; not just political but economic, media, cultural elites
+- **The general will**: the authentic, unmediated will of the people; politics must express it, not deliberate about it
+
+
+## Populism as a thin ideology {.smaller}
+<span style="color:#9a9a9a;">*Mudde & Kaltwasser, 2017*</span>
+
+<br>
+
+. . .
+
+Because populism is **thin-centred**, it is highly **malleable**:
+
+. . .
+
+- It attaches to very different **host ideologies**
+- This produces both **right-wing** populists (Orbán, Le Pen, Trump) and **left-wing** populists (Chávez, Podemos, Syriza)
+- They share the people/elite frame but define *who* the people and *who* the elite are very differently
+
+. . .
+
+→ <span style="color:#e74c3c;">Left populists</span> tend to define the elite **economically** (oligarchs, corporations)
+
+→ <span style="color:#f39c12;">Right populists</span> tend to define the elite **culturally** (cosmopolitan liberals, media, academics)
+
+
+## The populist challenge {.smaller}
+<span style="color:#9a9a9a;">*Kriesi, 2017*</span>
+
+<br>
+
+. . .
+
+Building on Mair: the **erosion of the representative function** of parties creates structural opportunity for populist challengers
+
+. . .
+
+<br>
+
+Two structural drivers:
+
+. . .
+
+1. **Denationalisation of governance** — EU and international institutions shift decision-making upward; parties serve multiple principals; accountability to national electorates weakens <span style="color:#9a9a9a;">(but notice contrast with **CEE**)</span>
+
+. . .
+
+2. **Mediatisation of politics** — media logic replaces party organisation; leaders communicate directly with citizens; personalised politics replaces programmatic representation
+
+
+## Three forms of populist challenge {.smaller}
+<span style="color:#9a9a9a;">*Kriesi, 2017*</span>
+
+<br>
+
+. . .
+
+The hollowing of party democracy opens space for three forms of response:
+
+. . .
+
+<div style="height:0.6em;"></div>
+
+::: {.columns}
+::: {.column width="33%"}
+
+**New challengers**
+
+Populist parties enter the system and articulate neglected conflicts
+
+*FPÖ, RN, Podemos*
+
+:::
+::: {.column width="33%"}
+
+**Anti-politics**
+
+Wholesale rejection of the party system as corrupt and illegitimate
+
+*M5S (Grillo), Jon Gnarr*
+
+:::
+::: {.column width="33%"}
+
+**Protest expansion**
+
+Mobilisation beyond the electoral channel — social movements and direct action
+
+*Indignados, Occupy*
+
+:::
+:::
+
+# Populism and democracy
+
+::: notes
+~ 10 minutes
+:::
+
+## The corrective role of populism {.smaller}
+<span style="color:#9a9a9a;">*Mudde & Kaltwasser, 2017*</span>
+
+
+<br>
+
+. . .
+
+Populism can be **corrective**:
+
+. . .
+
+- It gives voice to groups excluded from mainstream **representation**
+- It forces mainstream parties to address previously **neglected issues**
+- Populist challengers may drive **realignment**, bringing party systems closer to current structural changes in Western societies <span style="color:#9a9a9a;">(*Kriesi, 2017*)</span>
+
+<div style="height:0.2em;"></div>
+
+. . .
+
+Whether populism corrects or threatens depends on **context**: who wields it, the goals it is attached to, and the institutional context
+
+
+## Your responses {.smaller}
+
+<br>
+
+. . .
+
+*Fabian Alexander Wolff*
+
+<br>
+
+"Kriesi’s arguments are insightful but face significant limitations, especially its **optimistic view of populism** as a catalyst for party systems realignment."
+
+
+<br>
+
+"A very recent example I will focus on is the **AFD in Germany**. Since its founding in 2013 as a Eurosceptic protest party, AfD has consistently polled 10-20% by targeting globalization losers [...] Instead of addressing migration constructively through polarization, as Kriesi hopes, current politics drives even more support to AfD."
+
+
+
+## Populism as a threat to democracy {.smaller}
+
+<br>
+
+. . .
+
+Most often, however, populism is framed as a **threat to democracy**
+
+. . .
+
+<div style="height:0.6em;"></div>
+
+Populism builds on a **majoritarian view of democracy** that can justify backsliding behaviour:
+
+. . .
+
+- Checks and balances are **elite-created obstacles** to the popular will
+- Independent courts and media are **instruments of the corrupt elite**
+- Minority rights are dismissed in favour of **majoritarian homogeneity**
+- Intermediaries — parties, parliament — are **suspect**; a direct leader-people link is preferred
+
+. . .
+
+As a result, some view populism as a **pathway to autocracy** <span style="color:#9a9a9a;">*(e.g. Kendall-Taylor & Frantz, 2016*)</span>
+
+## Populism & executive aggrandizement {.smaller}
+<span style="color:#9a9a9a;">*Bessen, 2024*</span>
+
+<br>
+
+. . .
+
+**Research question**: Does *populist discourse* increase citizen *support* for executive aggrandizement?
+
+. . .
+
+**Argument**: Populism increases support for executive aggrandizement by:
+
+1. Framing the president as the **sole legitimate representative of the people**
+
+2. Framing institutional opposition as **corrupt elite obstruction**
+
+. . .
+
+This makes power grabs look **democratic** and legitimate
+
+
+## Observational & experimental evidence {.smaller}
+<span style="color:#9a9a9a;">*Bessen, 2024*</span>
+
+<br>
+
+. . .
+
+**Study 1**: Cross-national LAPOP surveys, 18 Latin American countries, 2010–2019 (~81,000 respondents); three-level multilevel logistic regression
+
+- **Outcome**: support for president closing congress / supreme court
+
+. . .
+
+**Study 2**: Survey experiment in Ecuador with a 3×2 factorial design manipulating mayors' justification to close the municipal council
+
+- **Outcome**: support for closing municipal congress
+
+
+## Findings: populism increases support for backsliding {.smaller}
+<span style="color:#9a9a9a;">*Bessen, 2024*</span>
+
+<br>
+
+. . .
+
+**Study 1**: more populist presidential discourse → **higher support for closing congress**; effect largest among **presidential supporters**
+
+. . .
+
+**Study 2**: populist and anti-elitist frames both **significantly increase support** for closing the legislature vs. baseline
+
+. . .
+
+<br>
+
+**Implication**: politicians can *reshape* public opinion, justifying anti-democratic actions on the **basis** of populist arguments
+
+
+# Conclusion
+
+::: notes
+~ 5 minutes
+:::
+
+## Summary {.smaller}
+
+<br>
+
+. . .
+
+- **Party democracy** is a form of democratic government in which parties fulfill both a *representative* and a *governmental* function, linking citizens to the state and making government accountable
+
+. . .
+
+- Party democracy has **eroded**: declining membership, identification, and representative function, driven by denationalisation of governance and mediatisation
+
+. . .
+
+- This creates structural opportunity for **populists**, who carry a thin-centred ideology rooted in a majoritarian and illiberal view of democracy
+
+. . .
+
+- Once in government, populist politicians can engage in **backsliding processes** — using popular mandates to dismantle the very institutions that constrain executive power
+
+## Re-assessing democratic backsliding
+
+. . .
+
+<br>
+
+What is the relation between **populism, weakening party democracy and and backsliding**?
+
+. . .
+
+<br>
+
+How does this relate to the weakening of **democratic norms** and **accountability mechanisms**?
+
+. . .
+
+<br>
+
+What is the role of **political elites** on democratic backsliding?
+
+---
+
+![](questions.png){fig-align="center"}
+
+## Next block (17.04.2026)
+
+<br>
+
+. . .
+
+**Block III: The Demand-Side of Democratic Backsliding**
+
+<br>
+
+. . .
+
+**Before...**
+
+<br>
+
+Presentation by **Julian**:
+
+*United States*
+
+
+## Thanks! :slightly_smiling_face:
+
+<br>
+
+<br>
+
+<br>
+
+<center>[alvaro.canalejo@unilu.ch](alvaro.canalejo@unilu.ch)</center>
