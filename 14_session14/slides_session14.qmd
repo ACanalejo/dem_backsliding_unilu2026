@@ -1,0 +1,205 @@
+---
+title: "Is Democracy in Danger? Final Remarks"
+subtitle: "The Politics of Democratic Backsliding <br> Session 14"
+author: "Dr. Álvaro Canalejo-Molero"
+institute: "University of Lucerne"
+bibliography: ../00_bibliography/dem_backsliding.bib
+csl: ../00_bibliography/apa.csl
+toc: true
+toc-depth: 1
+number-sections: false
+echo: FALSE
+warning: FALSE
+output: TRUE
+from: markdown+emoji
+format:
+  revealjs:
+    embed-resources: true
+    theme:
+      - default
+      - custom.scss
+    logo: ../00_images/logo_unilu.png
+    footer: | 
+         Hauptseminar - Spring Term 2026
+    title-slide-attributes:
+      data-background-image: "../00_images/unilu_building.png"
+      data-background-size: contain
+      data-background-opacity: "0.05"
+    incremental: false
+    smaller: false
+    scrollable: true
+    menu:
+      side: left
+      width: normal
+    preview-links: true
+    transition: slide
+    background-transition: fade
+    slide-number: true
+---
+
+# Introduction
+
+::: notes
+~ 5 minutes
+:::
+
+## This session's goals
+
+<br>
+
+. . .
+
+- **Recap** the course content and framework
+
+. . .
+
+- Introduce some **topics** we did not cover
+
+. . .
+
+- Final **debate** and reflection
+
+. . .
+
+- *No student presentation* in this session!
+
+# Democratic Backsliding: A Recap
+
+::: notes
+~ 10 minutes
+:::
+
+## Democracy and democratic backsliding {.smaller}
+
+<br>
+
+. . .
+
+- **Democracy** <span style="color:#9a9a9a;">*(S02)*</span> is a contested concept:
+
+    + Minimalist definitions focus on elections
+    
+    + Broader ones add civil liberties
+    
+    + The crucial dimensions are contestation and participation
+
+. . .
+
+- **Democratic backsliding** <span style="color:#9a9a9a;">*(S03)*</span> is a special form of autocratization: gradual and state-led, retaining a facade of legal and even democratic legitimacy
+
+---
+
+![](framework.png){fig-align="center"}
+
+::: notes
+Walk through the full framework. Supply side: mechanisms (S04–05) and conditions (S06–07). Demand side: mechanisms (S08–09) and conditions (S10–11).
+:::
+
+## Trends, measurement issues and resistance {.smaller}
+
+<br>
+
+. . .
+
+- Global backsliding is **contested** <span style="color:#9a9a9a;">*(S12)*</span>
+
+    + Debates on measurement and conceptual precision underlie this contestation
+
+    + Despite that, it is undeniable that **crucial global actors** are experiencing backsliding episodes
+
+. . .
+
+- **Resistance paths** are unclear <span style="color:#9a9a9a;">*(S13)*</span>, but real-world examples show the importance of timing, institutions, and strategies
+
+
+# Advanced Topics and Current Debates
+
+::: notes
+~ 10 minutes
+:::
+
+## Topics not covered {.smaller}
+
+<span style="color:#9a9a9a;">*Benmelech & Monteiro, 2026; Samuels, 2023; Pattison, 2025*</span>
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+- **War as a driver** <span style="color:#9a9a9a;">(Benmelech & Monteiro)</span>: conflict causes large and **persistent** democratic decline (media censorship, judicial purges, irregular leadership transitions); not because war *requires* autocracy, but because it creates **political opportunity** for executives to consolidate power
+
+. . .
+
+- **The international context matter** <span style="color:#9a9a9a;">(Samuels)</span>: the three main pro-democracy actors of the third wave (the **US, EU, and Vatican**) have progressively weakened their incentives to defend democracy abroad; would-be autocrats face less external constraint
+
+. . .
+
+- **The ethics of responding** <span style="color:#9a9a9a;">(Pattison)</span>: how *should* liberal states react to backsliding abroad? Avoiding complicity and maintaining liberal integrity are insufficient guides; what may create sufficient incentives is the **external effects** of backsliding on the fulfilment of global responsibilities
+
+## Resilience and resistance {.smaller}
+
+<span style="color:#9a9a9a;">*Riedl, Friesen, McCoy & Roberts, 2024*</span>
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+The "next-level" questions in backsliding research:
+
+- **Sources of resilience** (structural): proportional systems, veto points, independent courts, civil society
+- **Strategies of resistance**: active choices by opposition and civil society
+
+. . .
+
+Plus, we need to re-think the relationship between **democracy and the market**:
+
+- Przeworski and Limongi argued that beyond a certain level of **wealth**, democracy would not collapse
+- This hypothesis rested on **specific industrial market relations and rooted political parties**
+- The transition to a **globalised knowledge economy** changes how wealth relates to democracy: **from redistributive to constitutive debates**
+
+# Final Reflection
+
+::: notes
+~ 20 minutes
+:::
+
+## Is democracy in danger?
+
+<br>
+
+. . .
+
+
+- Is the current wave of backsliding **overstated**? Is it a *temporary crisis* or a *structural transformation*?
+
+. . .
+
+- Which matters more for **democratic survival**?
+
+. . .
+
+- What's the role of the **international community**?
+
+. . .
+
+<div style="height:0.6em;"></div>
+
+<span style="color:#2a9d8f;">What are ***your thoughts, hopes, and concerns***?</span>
+
+---
+
+![](questions.png){fig-align="center"}
+
+## It's being an enormous pleasure! :slightly_smiling_face:
+
+. . .
+
+<br>
+
+<br>
+
+**Thank you all!**
+
+<br>
+
+<center>[alvaro.canalejo@unilu.ch](alvaro.canalejo@unilu.ch)</center>

@@ -1,0 +1,494 @@
+---
+title: "Institutional and Civil Resistance"
+subtitle: "The Politics of Democratic Backsliding <br> Session 13"
+author: "Dr. Álvaro Canalejo-Molero"
+institute: "University of Lucerne"
+bibliography: ../00_bibliography/dem_backsliding.bib
+csl: ../00_bibliography/apa.csl
+toc: true
+toc-depth: 1
+number-sections: false
+echo: FALSE
+warning: FALSE
+output: TRUE
+from: markdown+emoji
+format:
+  revealjs:
+    embed-resources: true
+    theme:
+      - default
+      - custom.scss
+    logo: ../00_images/logo_unilu.png
+    footer: | 
+         Hauptseminar - Spring Term 2026
+    title-slide-attributes:
+      data-background-image: "../00_images/unilu_building.png"
+      data-background-size: contain
+      data-background-opacity: "0.05"
+    incremental: false
+    smaller: false
+    scrollable: true
+    menu:
+      side: left
+      width: normal
+    preview-links: true
+    transition: slide
+    background-transition: fade
+    slide-number: true
+---
+
+# Introduction
+
+::: notes
+~ 5 minutes
+:::
+
+## This session's goals
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+- Understand how **institutional design** can protect democracy from breakdown
+
+. . .
+
+- Examine the **strategic logic of nonviolent resistance** and why it can work
+
+. . .
+
+- Discuss the challenges of **countering backsliding**
+
+. . .
+
+- Students' presentation: the case of **Poland**
+
+# Institutional Design
+
+::: notes
+~ 10 minutes
+:::
+
+## Powersharing and democratic survival {.smaller}
+
+<span style="color:#9a9a9a;">*Graham, Miller & Strøm, 2017*</span>
+
+<br>
+
+. . .
+
+**RQ**: can institutional design protect democracy? Which institutions, and under what conditions?
+
+. . .
+
+<div style="height:0.6em;"></div>
+
+Three **powersharing institutions**:
+
+- **Inclusive**: group representation, ethnic quotas, grand coalitions
+
+
+- **Dispersive**: federalism, territorial decentralisation
+
+
+- **Constraining**: independent judiciaries, civilian control of the military, civil rights protections
+
+::: notes
+The key contribution of this paper is the disaggregation. The prior literature treated powersharing as a single thing. Graham et al. show the effects differ sharply by type and context.
+:::
+
+---
+
+![](graham_tab1.png){fig-align="center"}
+
+## Data and methods {.smaller}
+
+<span style="color:#9a9a9a;">*Graham, Miller & Strøm, 2017*</span>
+
+<br>
+
+. . .
+
+- **Sample**: all democracies globally, **1975–2015** (N ≈ 2,259 country-years)
+
+
+- **Outcome**: democratic survival, i.e., whether a democracy remains democratic **5 years later**
+
+
+- **Method**: dynamic probit regressions (Markov transition models) with a **5-year lag** on all independent variables to reduce reverse causation risk
+
+. . .
+
+- **Key controls**: GDP per capita, regional democracy, ethno-linguistic fractionalization, fuel dependence, past democratic breakdowns, *polity*, *freedom house index*
+
+- **Robustness**: replication with 1–10 year lag specifications, across 10 "hard case" sub-samples, and with an instrumental variables analysis
+
+## Findings: what protects democracy? {.smaller}
+
+<span style="color:#9a9a9a;">*Graham, Miller & Strøm, 2017*</span>
+
+<br>
+
+. . .
+
+**Constraining powersharing** consistently increases the likelihood of democratic survival; in all contexts and all hard-case sub-samples
+
+
+- Cutting the risk of democratic failure in half when increased by one standard deviation
+
+. . .
+
+**Inclusive powersharing** helps, but *only* in post-civil war settings; null or negative effects otherwise
+
+. . .
+
+**Dispersive powersharing** (federalism) *destabilises* post-conflict democracies
+
+. . .
+
+<br>
+
+Policy implication: prioritise **institutions that constrain leaders**, not ethnic quotas or federalism
+
+---
+
+![](graham_fig4.png){fig-align="center"}
+
+## Why constraints work {.smaller}
+
+<span style="color:#9a9a9a;">*Graham, Miller & Strøm, 2017*</span>
+
+<br>
+
+. . .
+
+Three mechanisms:
+
+
+1. **Electoral winners** have less opportunities to abuse power
+
+
+2. **Electoral losers** have less incentives to renege on democratic commitments
+
+
+3. **Third parties** do not suffer discrimination that undermines their regime support
+
+. . .
+
+<br>
+
+**Constraining institutions** address all three by *restricting* power rather than by allocating it
+
+::: notes
+This connects directly to Przeworski's conception of democracy as a self-enforcing equilibrium. The logic of constraints is not to give everyone a seat at the table but to make abuse costly for whoever wins.
+:::
+
+## Your responses {.smaller}
+
+<br>
+
+. . .
+
+"The authors fail to fully explain why constraining institutions succeed and fail in certain contexts [...] in numerous states, formal safeguards are unable to function effectively due to informal patronage networks, corruption, or executive interference." *(Giulio Paraboni)*
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+"The discussion of inclusive arrangements is also limited. [...] Systems that guarantee representation may also reinforce polarization, weaken accountability, and strengthen political elites." *(Giulio Paraboni)*
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+"If a system accumulates too many formal constraints, too many veto points, and too much bureaucracy, it may become rigid and ineffective. [...] Governments may find it harder to respond to crises, implement reforms, invest in infrastructure, or pursue long-term development. [...] A democracy needs barriers against abuse, but it also needs room for collective decision-making, reform, and development." *(Filippo Brambilla)*
+
+# Civil Resistance
+
+::: notes
+~ 10 minutes
+:::
+
+## The strategic logic of nonviolent conflict {.smaller}
+
+<span style="color:#9a9a9a;">*Chenoweth & Stephan, 2011*</span>
+
+<br>
+
+. . .
+
+Conventional wisdom: **armed resistance** is more effective against authoritarian regimes
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+Chenoweth & Stephan challenge this, drawing on an **original (NAVCO) dataset** (323 campaigns, 1900–2006):
+
+. . .
+
+- Nonviolent campaigns *(strikes, boycotts, mass protests, civil disobedience)* succeed roughly **twice as often** as violent ones (~53% vs ~26%)
+
+- Post-success outcomes are **better**: nonviolent success is more likely to lead to durable democracy
+
+::: notes
+The NAVCO dataset is the main empirical contribution alongside the argument. The 2:1 ratio is striking and robust across different specifications.
+:::
+
+---
+
+![](chenoweth_fig1.3.png){fig-align="center"}
+
+## Why nonviolent resistance works {.smaller}
+
+<span style="color:#9a9a9a;">*Chenoweth & Stephan, 2011*</span>
+
+<div style="height:0.6em;"></div>
+
+. . .
+
+The key mechanism is **participation**
+
+- Nonviolent campaigns can recruit **larger and more diverse coalitions**, including risk-averse citizens who would not take up arms
+
+. . .
+
+This produces *three downstream effects*:
+
+- **Loyalty shifts**: security forces and economic elites are more likely to defect or withhold support when facing unarmed civilians
+
+- **Resilience**: larger coalitions are harder to repress wholesale; repression of nonviolent movements tends to **backfire**, generating sympathy and new recruits
+
+- **Tactical innovation**: diverse coalitions enable a wider repertoire of actions making campaigns harder to fully suppress
+
+::: notes
+The backfire mechanism is crucial. Violent repression of armed insurgents reads as legitimate self-defence. Violent repression of nonviolent protesters delegitimises the regime and accelerates defections.
+:::
+
+## Recent findings {.smaller}
+
+<span style="color:#9a9a9a;">*Chenoweth, 2020*</span>
+
+<br>
+
+. . .
+
+Success rates have **dropped sharply**; from ~70% in the 1990s to under 30% in the 2010s
+
+. . .
+
+- **Authoritarian learning**: regimes now use preemptive repression, co-optation, and counter-mobilisation more effectively
+
+
+- **Digital surveillance**: easier to monitor and disrupt campaigns before they scale
+
+
+- **Shifting international environment**: less external pressure on autocrats and fewer pro-democracy incentives from major powers
+
+
+## Your responses {.smaller}
+
+<br>
+
+. . .
+
+"The book (...) sometimes leans too heavily on participation as the key explanation for success [...] Leadership, organization, discipline, timing, international pressure, and regime vulnerability are also important." *(Nikolina Djogova)*
+
+. . .
+
+"[...] the book is better at identifying a broad historical pattern than at proving a single causal explanation for it. [...] variation suggests that the strategic logic of nonviolent success may not travel equally well across all forms of conflict" *(Nikolina Djogova)*
+
+. . .
+
+<div style="height:0.6em;"></div>
+
+"[...] the distinction between violent and nonviolent campaigns is useful analytically, but it can also smooth over a messier reality." *(Nikolina Djogova)*
+
+. . .
+
+"Some questions may remain less explored in academia not because they matter less, but because they are harder to study in clean, measurable, and publishable ways." *(Nikolina Djogova)*
+
+# Countering Backsliding
+
+::: notes
+~ 10 minutes
+:::
+
+## A distinct challenge {.smaller}
+
+<br>
+
+. . .
+
+Graham et al. (2017) and Chenoweth & Stephan (2011) address **democratic survival** and **resistance to autocracy**, respectively
+
+. . .
+
+<br>
+
+Backsliding has specific features that may limit the lessons we can extract from this work:
+
+- **State-led and incremental**: backsliders retain legal and democratic legitimacy throughout
+
+<br>
+
+. . .
+
+So, how can we **counter democratic backsliding** specifically?
+
+## Capoccia's framework {.smaller}
+
+<span style="color:#9a9a9a;">*Capoccia, 2026*</span>
+
+<br>
+
+. . .
+
+Three **scenarios** of confrontation with illiberals:
+
+<div style="height:0.6em;"></div>
+
+- **Prevention**: a new illiberal opposition is rising but has not yet become a serious contender
+
+- **Containment**: illiberals are on the brink of power but have not yet access the executive power
+
+- **Resistance**: an illiberal executive is already in power and eroding accountability
+
+
+::: notes
+The typology is analytically useful because each scenario implies different available tools and different success probabilities.
+:::
+
+---
+
+![](capoccia_tab1.png){fig-align="center"}
+
+## The temporal paradox {.smaller}
+
+<span style="color:#9a9a9a;">*Capoccia, 2026*</span>
+
+<br>
+
+. . .
+
+A **paradox of timing**:
+
+
+- **Act early**: more countermeasures available, but the threat is still ambiguous; hard to coordinate and mobilise
+
+- **Act late**: threat is clear and coordination is easier, but the range of viable responses has narrowed
+
+. . .
+
+Two factors can help navigate the paradox:
+
+- **Exogenous information**: foreign comparators, leaked evidence of illiberal intentions; reduces uncertainty early
+
+- **Institutional legacies**: independent courts, rooted civil society, strong opposition; make timely action more or less feasible
+
+::: notes
+Israel vs. Hungary and Poland is Capoccia's example: opponents of Netanyahu's 2023 judicial reforms used Hungary and Poland as cautionary comparators to mobilise when a wider range of countermeasures was still available.
+:::
+
+---
+
+![](capoccia_tab2.png){fig-align="center"}
+
+## The democratic dilemma {.smaller}
+
+<br>
+
+. . .
+
+A fundamental tension: **defending democracy may require bending its rules**
+
+. . .
+
+- **Militant democracy**: banning anti-democratic parties to protect the system from within
+- **Hardball** <span style="color:#9a9a9a;">*(Bateman, 2025)*</span>: legally permissible actions that violate democratic norms for (democratic) partisan advantage
+
+. . .
+
+
+<br>
+
+When does fighting backsliders **reproduce** the problem?
+
+- Norm-stretching may be **democracy-reinforcing** when backsliders lack popular support and the action expands rather than constricts democratic competition
+
+- But they pose **risks** of polarization, escalation and legitimacy costs
+
+# Conclusion
+
+::: notes
+~ 10 minutes
+:::
+
+## What can be done to **resist or reverse democratic backsliding**?
+
+. . .
+
+<br>
+
+- Do **institutions** matter for **mobilization**?
+
+. . .
+
+- What **tactics** are more effective? And more realistic? 
+
+. . .
+
+- How can we navigate the **democratic dilemma**?
+
+---
+
+## Summary
+
+. . .
+
+- **Constraining institutions** matter: they restrict power and increase the chances of democratic survival
+
+. . .
+
+- **Nonviolent resistance** can succeed because it enables broader participation, loyalty shifts, and tactical innovation
+
+. . .
+
+- Backsliding presents **specific challenges**: how to counter it is actively debated, but the timing of interventions matters
+
+. . .
+
+- A crucial open question is the **democratic dilemma**, making resistance harder to pursue
+
+---
+
+![](questions.png){fig-align="center"}
+
+## Next session (13:45)
+
+<br>
+
+
+**Session 14: Is Democracy in Danger? Final Remarks**
+
+<br>
+
+. . .
+
+**Before...**
+
+<br>
+
+Presentation by **Emmanuel & Stephanie**:
+
+*Poland*
+
+## Thanks! :slightly_smiling_face:
+
+<br>
+
+<br>
+
+<br>
+
+<center>[alvaro.canalejo@unilu.ch](alvaro.canalejo@unilu.ch)</center>
